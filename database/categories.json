@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "696de8e36a12bf31f0da7cd7",
+    "title": "Corporate",
+    "createdAt": "2026-01-19T08:18:43.518Z",
+    "updatedAt": "2026-01-23T12:11:03.806Z",
+    "__v": 0
+  },
+  {
+    "_id": "696de9026a12bf31f0da7ce6",
+    "title": "Commercial",
+    "createdAt": "2026-01-19T08:19:14.220Z",
+    "updatedAt": "2026-01-23T12:11:32.783Z",
+    "__v": 0
+  },
+  {
+    "_id": "696de90e6a12bf31f0da7ceb",
+    "title": "Industrial",
+    "createdAt": "2026-01-19T08:19:26.907Z",
+    "updatedAt": "2026-01-23T12:11:48.832Z",
+    "__v": 0
+  },
+  {
+    "_id": "696de9186a12bf31f0da7cf0",
+    "title": "Custom Solutions",
+    "createdAt": "2026-01-19T08:19:36.516Z",
+    "updatedAt": "2026-01-23T12:12:06.939Z",
+    "__v": 0
+  },
+  {
+    "_id": "696de9276a12bf31f0da7cf5",
+    "title": "Consulting",
+    "createdAt": "2026-01-19T08:19:51.180Z",
+    "updatedAt": "2026-01-23T12:12:26.085Z",
+    "__v": 0
+  },
+  {
+    "_id": "696de92f6a12bf31f0da7cfa",
+    "title": "Infrastructure",
+    "createdAt": "2026-01-19T08:19:59.628Z",
+    "updatedAt": "2026-01-23T12:12:43.358Z",
+    "__v": 0
+  }
+]

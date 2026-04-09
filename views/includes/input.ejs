@@ -1,0 +1,31 @@
+<%
+// Safe defaults for commonly-missed locals
+label = (typeof label !== 'undefined') ? label : '';
+name = (typeof name !== 'undefined') ? name : '';
+id = (typeof id !== 'undefined') ? id : name;
+type = (typeof type !== 'undefined') ? type : 'text';
+className = (typeof className !== 'undefined') ? className : '';
+placeholder = (typeof placeholder !== 'undefined') ? placeholder : '';
+value = (typeof value !== 'undefined') ? value : '';
+required = (typeof required !== 'undefined') ? required : false;
+multiple = (typeof multiple !== 'undefined') ? multiple : false; 
+%>
+
+<label for="<%= id || name %>" class="form-label fw-medium">
+  <%= label || '' %>
+
+  <% if (required) { %>
+    <span class="text-danger">*</span>
+  <% } %>
+</label>
+
+<input
+  type="<%= type %>"
+  id="<%= id || name %>"
+  name="<%= name %>"
+  class="form-control <%= className %>"
+  placeholder="<%= placeholder %>"
+  value="<%= value %>"
+  <%= required ? 'required' : '' %>
+   <%= (type === 'file' && multiple) ? 'multiple' : '' %>
+/>

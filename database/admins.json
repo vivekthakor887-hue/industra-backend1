@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "696c8bb9daf3c2f0ac29e516",
+    "name": "Admin",
+    "email": "admin@example.com",
+    "password": "$2b$10$eMO7DJUbJjBeiFlLGD0Ilupe96IXoDM208J3QkTvFSyj29lMsjj8y",
+    "profile": "/uploads/adminprofile/1769579921393-142252969.png",
+    "createdAt": "2025-11-21T06:32:28.690Z",
+    "updatedAt": "2026-01-28T05:58:41.609Z",
+    "__v": 0
+  }
+]

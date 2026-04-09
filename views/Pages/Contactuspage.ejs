@@ -1,0 +1,75 @@
+<%- include('../includes/header', {admin} ) %>
+
+  <div class="body-wrapper">
+    <div class="container-fluid">
+      <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+        <div class="card-body px-4 py-3">
+          <div class="row align-items-center">
+            <div class="col-md-8 col-sm-7">
+              <h4 class="fw-semibold mb-1">Manage ContactUs</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+           <div class="card shadow-sm">
+        <div class="card-body">
+
+          <h4 class="mb-4">Update ContactUs Section</h4>
+
+          <form id="sectionForm">
+
+            <!-- TYPE (HIDDEN) -->
+            <input type="hidden" name="type" value="<%= section ? section.type : 'contact' %>">
+
+            <!-- LABEL + TITLE (ONE LINE) -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label class="form-label fw-semibold">Section Label<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="label" value="<%= section ? section.label : '' %>"
+                  placeholder="Contact Page – Custom Section" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label fw-semibold">Title<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="title" value="<%= section ? section.title : '' %>"
+                  placeholder="Custom Subscriptions for Every Requirement" required>
+                <small class="text-muted">
+                  To highlight any word in the title, wrap it inside a <code>&lt;span&gt;</code>
+                  <code>&lt;/span&gt;</code> tags.tag.
+                </small>
+              </div>
+              <div class="mb-4">
+                <label class="form-label fw-semibold">Short Description<span class="text-danger">*</span></label>
+                <textarea class="form-control" name="description" rows="3" placeholder="Write short description here..."
+                  required><%= section ? section.description : '' %></textarea>
+              </div>
+              <div class="col-md-12">
+                <label class="form-label fw-semibold">Page Banner Background</label>
+                <input type="file" class="form-control" name="pageBgBanner" id="pageBgBannerInput" accept="image/*">
+                <small class="text-muted d-block mt-1">
+                  <i class="fa-solid fa-circle-info text-primary"></i>
+                  Recommended Size: <strong>1900 x 440 px</strong>, Formats:
+                  <strong>/jpeg|jpg|png|webp/</strong>
+                </small>
+                <img id="pageBgBannerPreview" src="<%= section && section.pageBgBanner ? section.pageBgBanner : '' %>"
+                  alt="Page Banner Background" class="img-thumbnail mt-2"
+                  style="max-width: 200px; <%= section && section.pageBgBanner ? '' : 'display:none;' %>">
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary px-4 mt-2">
+              Update Section
+            </button>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+  <%- include('../includes/allscripts') %>
+  <script src="/js/viewjs/pagesection.js"></script>

@@ -1,0 +1,26 @@
+<%
+label = (typeof label !== 'undefined') ? label : '';
+name = (typeof name !== 'undefined') ? name : '';
+id = (typeof id !== 'undefined') ? id : name;
+className = (typeof className !== 'undefined') ? className : '';
+placeholder = (typeof placeholder !== 'undefined') ? placeholder : '';
+value = (typeof value !== 'undefined') ? value : '';
+rows = (typeof rows !== 'undefined') ? rows : 3;
+required = (typeof required !== 'undefined') ? required : false;
+%>
+
+<label for="<%= id %>" class="form-label fw-medium">
+  <%= label %>
+  <% if (required) { %>
+    <span class="text-danger">*</span>
+  <% } %>
+</label>
+
+<textarea
+  id="<%= id %>"
+  name="<%= name %>"
+  class="form-control <%= className %>"
+  placeholder="<%= placeholder %>"
+  rows="<%= rows %>"
+  <%= required ? "required" : "" %>
+><%= value %></textarea>

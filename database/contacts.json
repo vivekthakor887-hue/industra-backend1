@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "696c9b7f4bb0381a21074aa3",
+    "companyName": "INDUSTRA",
+    "email": "industra@gmail.com",
+    "address": "Industra Corporate Hub,\r\nBlock B, Tech Zone,\r\nWhitefield, Bengaluru 560066, India",
+    "logo": "/uploads/logo/1768890340890-231785143.png",
+    "darkLogo": "/uploads/logo/1768806094937-384711164.png",
+    "favicon": "/uploads/logo/1769520785859-397051984.png",
+    "phones": [
+      "+91 9876543210",
+      "+91 93282 81155"
+    ],
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com",
+      "x": "https://x.com/",
+      "linkedin": "https://www.linkedin.com",
+      "youtube": "https://www.youtube.com/"
+    },
+    "primaryColor": "#4fbdba",
+    "secondaryColor": "#000000",
+    "accentColor": "#374151",
+    "generalBorderRadius": 10,
+    "buttonRadius": 100,
+    "badgeLayout": true,
+    "generalFont": "inter",
+    "headerFont": "raleway",
+    "createdAt": "2026-01-18T08:36:15.029Z",
+    "updatedAt": "2026-01-27T18:45:17.884Z",
+    "__v": 2,
+    "aboutcompany": "We provide reliable, quality-driven solutions designed to support business growth through smart planning and efficient execution.",
+    "workingtime": [
+      "Monday – Saturday: 9:00 AM – 6:00 PM",
+      "Sunday: Closed"
+    ]
+  }
+]

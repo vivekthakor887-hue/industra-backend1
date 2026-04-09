@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "696f51d80e4d422f2b456cb1",
+    "title": "What Makes Us a <span>Trusted Partner</span>",
+    "badge": "WHY CHOOSE US",
+    "description": "<p>We are committed to delivering reliable, well-planned, and high-quality solutions that help businesses achieve their goals. Our focus on transparency, efficiency, and client satisfaction sets us apart.</p>",
+    "features": "Experienced Team,Quality-Focused Approach",
+    "labels": [
+      "Our team brings practical experience and industry knowledge to deliver effective and dependable solutions.",
+      "We follow structured processes and strict quality standards to ensure consistent and reliable results."
+    ],
+    "image": "/uploads/whychooseus/1769161880401-396725515.png",
+    "createdAt": "2026-01-20T09:58:48.516Z",
+    "updatedAt": "2026-01-27T18:35:37.034Z",
+    "__v": 0
+  }
+]

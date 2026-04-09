@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "6978f4111a39f84833d75b6b",
+    "name": "John Anderson",
+    "email": "john.anderson@example.com",
+    "subject": "Service Inquiry",
+    "message": "I would like to know more about your services and pricing options.",
+    "createdAt": "2026-01-10T17:21:21.728Z",
+    "updatedAt": "2026-01-27T17:21:21.728Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4381a39f84833d75b6f",
+    "name": "Sophia Martinez",
+    "email": "sophia.martinez@example.com",
+    "subject": "Project Discussion",
+    "message": "We are planning a new project and would like to discuss requirements.",
+    "createdAt": "2026-01-10T17:22:00.215Z",
+    "updatedAt": "2026-01-27T17:22:00.215Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4681a39f84833d75b7a",
+    "name": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "subject": "michael.brown@example.com",
+    "message": "Looking for a customized solution for our business needs.",
+    "createdAt": "2026-01-17T17:22:48.007Z",
+    "updatedAt": "2026-01-27T17:22:48.007Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f48e1a39f84833d75b7e",
+    "name": "Emma Wilson",
+    "email": "emma.wilson@example.com",
+    "subject": "Consultation Request",
+    "message": "Please share details about consultation and project timelines.",
+    "createdAt": "2026-01-17T17:23:26.687Z",
+    "updatedAt": "2026-01-27T17:23:26.687Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4b91a39f84833d75b82",
+    "name": "Daniel Lee",
+    "email": "daniel.lee@example.com",
+    "subject": "daniel.lee@example.com",
+    "message": "Interested in exploring a potential partnership opportunity.",
+    "createdAt": "2026-01-27T17:24:09.614Z",
+    "updatedAt": "2026-01-27T17:24:09.614Z",
+    "__v": 0
+  },
+  {
+    "_id": "6979e730eb5b5f297a633fa1",
+    "name": "Olivia Taylor",
+    "email": "olivia.taylor@example.com",
+    "subject": "Support Inquiry",
+    "message": "Need information about post-project support and maintenance.",
+    "createdAt": "2026-01-28T10:38:40.732Z",
+    "updatedAt": "2026-01-28T10:38:40.732Z",
+    "__v": 0
+  },
+  {
+    "_id": "6979e769eb5b5f297a633fb9",
+    "name": "Isabella Rossi",
+    "email": "isabella.rossi@example.com",
+    "subject": "Project Timeline",
+    "message": "We would like to understand the expected timeline for project delivery.",
+    "createdAt": "2026-01-28T10:39:37.242Z",
+    "updatedAt": "2026-01-28T10:39:37.242Z",
+    "__v": 0
+  }
+]

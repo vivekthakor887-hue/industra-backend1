@@ -1,0 +1,156 @@
+<%- include('../includes/header', {admin}) %>
+
+  <div class="body-wrapper">
+    <div class="container-fluid">
+      <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+        <div class="card-body px-4 py-3">
+          <div class="row align-items-center">
+            <div class="col-md-8 col-sm-7">
+              <h4 class="fw-semibold mb-1">Manage Testimonial </h4>
+
+            </div>
+
+            <div class="col-md-4 col-sm-5 text-md-end text-sm-start mt-3 mt-md-0">
+              <%- include("../includes/button", { id: "addTestimonialBtn" , type: "btn-primary" ,
+                icon: "fa-solid fa-plus" , label: "Add Testimonial" }) %>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+                      <div class="card shadow-sm">
+        <div class="card-body">
+
+          <h4 class="mb-4">Update Testimonial Section</h4>
+
+          <form id="sectionForm">
+
+            <!-- TYPE (HIDDEN) -->
+            <input type="hidden" name="type" value="<%= section ? section.type : 'faq' %>">
+
+            <!-- LABEL + TITLE (ONE LINE) -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label class="form-label fw-semibold">Section Label<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="label" value="<%= section ? section.label : '' %>"
+                  placeholder="Home Page – Custom Section" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label fw-semibold">Title<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="title" value="<%= section ? section.title : '' %>"
+                  placeholder="Custom Subscriptions for Every Requirement" required>
+                   <small class="text-muted">
+  To highlight any word in the title, wrap it inside a <code>&lt;span&gt;</code>  <code>&lt;/span&gt;</code> tags.tag.
+</small>
+              </div>
+               <div class="mb-4">
+        <label class="form-label fw-semibold">Short Description<span class="text-danger">*</span></label>
+        <textarea class="form-control" name="description" rows="3"
+            placeholder="Write short description here..." required><%= section ? section.description : '' %></textarea>
+    </div>
+            </div>
+
+         
+
+            <!-- BUTTON -->
+            <button type="submit" class="btn btn-primary px-4">
+              Update Section
+            </button>
+
+          </form>
+
+        </div>
+      </div>
+      <div class="datatables">
+
+        <div class="card">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table id="zero_config" class="table table-striped table-bordered text-nowrap align-middle">
+                <thead>
+                  <tr>
+                    <th>Client Name</th>
+                    <th>Quote</th>
+                    <th>Location</th>
+                    <th>Rating</th>
+                    <th class="action-col">Action</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial Modal -->
+        <div class="modal fade" id="testimonialModal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg rounded-3">
+
+              <!-- Modal Header -->
+              <div class="modal-header bg-light-subtle">
+                <h5 class="modal-title fw-semibold" id="testimonialModalLabel">Add Testimonial</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <!-- Modal Body -->
+              <div class="modal-body p-4">
+                <form id="testimonialForm">
+                  <input type="hidden" id="testimonialId" name="id">
+
+                  <div class="row g-3">
+
+                    <!-- Client Name -->
+                    <div class="col-md-12">
+                      <%- include("../includes/input", { label: "Client Name" , name: "clientName" ,
+                        placeholder: "Enter client name" , required: true }) %>
+                    </div>
+
+                    <!-- Quote -->
+                    <div class="col-md-12">
+                      <%- include("../includes/textarea", { label: "Quote" , name: "quote" , id: "quote" , rows: 4,
+                        placeholder: "Enter client quote" , required: true }) %>
+                    </div>
+
+                    <!-- Location -->
+                    <div class="col-md-6">
+                      <%- include("../includes/input", { label: "Location" , name: "location" , id:"location" ,
+                        placeholder: "Enter location" , required: false }) %>
+                    </div>
+
+                    <!-- Rating -->
+                    <div class="col-md-6">
+                      <%- include("../includes/input", { label: "Rating (1-5)" , name: "rating" , type: "number" , id:"rating",
+                        placeholder: "Enter rating" , min: 1, max: 5, required: true }) %>
+                    </div>
+
+                  </div>
+                </form>
+              </div>
+
+              <!-- Modal Footer -->
+              <div class="modal-footer border-0 pt-0">
+                <%- include("../includes/button", { label: "Cancel" , type: "btn-light" ,
+                  attr: 'type="button" data-bs-dismiss="modal"' }) %>
+
+                  <%- include("../includes/button", { label: "Save" , type: "btn-primary px-4" ,
+                    attr: 'type="submit" form="testimonialForm"' }) %>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+  </div>
+
+  <%- include('../includes/allscripts') %>
+    <script src="/js/viewjs/testimonials.js"></script>
+    <script src="/js/viewjs/pagesection.js"></script>

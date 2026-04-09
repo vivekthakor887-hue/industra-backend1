@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "69708e10997d362046841126",
+    "title": "Global Business & Industry Expo 2025",
+    "location": "Mumbai, India",
+    "image": "/uploads/exhibition/1769256832777-449239539.png",
+    "date": "2025-11-11T00:00:00.000Z",
+    "createdAt": "2026-01-21T08:28:00.085Z",
+    "updatedAt": "2026-01-24T12:13:53.079Z",
+    "__v": 0
+  },
+  {
+    "_id": "69708e29997d362046841137",
+    "title": "International Trade & Solutions Fair",
+    "location": "New Delhi, India",
+    "image": "/uploads/exhibition/1769256859246-451521619.png",
+    "date": "2025-10-22T00:00:00.000Z",
+    "createdAt": "2026-01-21T08:28:25.258Z",
+    "updatedAt": "2026-01-24T12:14:19.504Z",
+    "__v": 0
+  },
+  {
+    "_id": "6974911ae9a2fe161a06697c",
+    "title": "Business Innovation & Technology Expo",
+    "location": "Bengaluru, India",
+    "image": "/uploads/exhibition/1769256812261-966161737.png",
+    "date": "2025-08-05T00:00:00.000Z",
+    "createdAt": "2026-01-24T09:30:02.856Z",
+    "updatedAt": "2026-01-24T12:13:32.518Z",
+    "__v": 0
+  },
+  {
+    "_id": "697491f7e9a2fe161a066b65",
+    "title": "Industrial & Commercial Showcase",
+    "location": "Ahmedabad, India",
+    "image": "/uploads/exhibition/1769256844348-859556113.png",
+    "date": "2025-09-12T00:00:00.000Z",
+    "createdAt": "2026-01-24T09:33:43.109Z",
+    "updatedAt": "2026-01-24T12:14:04.729Z",
+    "__v": 0
+  },
+  {
+    "_id": "697493126a661dc700d35065",
+    "title": "Corporate & Infrastructure Expo",
+    "location": "Pune, India",
+    "image": "/uploads/exhibition/1769256823250-902937203.png",
+    "date": "2025-07-04T00:00:00.000Z",
+    "createdAt": "2026-01-24T09:38:26.751Z",
+    "updatedAt": "2026-01-24T12:13:43.600Z",
+    "__v": 0
+  },
+  {
+    "_id": "697493356a661dc700d35076",
+    "title": "Modern Business Solutions Expo",
+    "location": "Hyderabad, India",
+    "image": "/uploads/exhibition/1769256867121-196160509.png",
+    "date": "2025-05-14T00:00:00.000Z",
+    "createdAt": "2026-01-24T09:39:01.504Z",
+    "updatedAt": "2026-01-24T12:14:27.317Z",
+    "__v": 0
+  }
+]

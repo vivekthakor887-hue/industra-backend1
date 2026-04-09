@@ -1,0 +1,43 @@
+<% 
+  const multipleFlag = typeof multiple !== 'undefined' ? multiple : false;
+  const requiredFlag = typeof required !== 'undefined' ? required : false;
+  const optionsArray = Array.isArray(options) ? options : [];
+%>
+
+<div class="<%= typeof colClass !== 'undefined' ? colClass : 'mb-3' %>">
+  <label for="<%= id %>" class="form-label fw-medium">
+    <%= label %>
+    <% if (requiredFlag) { %> <span class="text-danger">*</span> <% } %>
+  </label>
+
+  <select 
+    id="<%= id %>" 
+    name="<%= name %>" 
+    class="form-control <%= typeof className !== 'undefined' ? className : '' %>"
+    <%= requiredFlag ? 'required' : '' %>
+    <%= multipleFlag ? 'multiple' : '' %>
+  >
+    <% if (!multipleFlag) { %>
+      <option value="">Select <%= label %></option>
+    <% } %>
+
+    <% optionsArray.forEach(opt => { 
+         const value = opt._id || opt.value || '';
+         const selected = opt.selected ? 'selected' : '';
+         let text = '';
+
+         // Determine option text
+         if(opt.title) {
+           text = opt.title;
+         } else if(opt.size || opt.color || opt.weight || opt.price) {
+           text = `${opt.size || ''}${opt.size ? ' | ' : ''}${opt.color || ''}${opt.color ? ' | ' : ''}${opt.weight || ''}${opt.weight ? ' | ' : ''}${opt.price ? '₹' + opt.price : ''}`;
+         } else if(opt.name) {
+           text = opt.name;
+         } else {
+           text = value;
+         }
+    %>
+      <option value="<%= value %>" <%= selected %>><%= text %></option>
+    <% }) %>
+  </select>
+</div>

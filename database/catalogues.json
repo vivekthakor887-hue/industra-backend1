@@ -1,0 +1,29 @@
+[
+  {
+    "_id": "69708e8b5c75e15c6d117806",
+    "title": "Service Brochure",
+    "image": "/uploads/catalogue/1769429246515-641607569.png",
+    "pdf": "/uploads/catalogue/1769429260235-682671750.pdf",
+    "createdAt": "2026-01-21T08:30:03.406Z",
+    "updatedAt": "2026-01-26T12:07:43.162Z",
+    "__v": 0
+  },
+  {
+    "_id": "69708e995c75e15c6d117809",
+    "title": "Company Profile",
+    "image": "/uploads/catalogue/1769488030728-680465816.png",
+    "pdf": "/uploads/catalogue/1769488030840-23051092.pdf",
+    "createdAt": "2026-01-21T08:30:17.892Z",
+    "updatedAt": "2026-01-27T04:27:11.121Z",
+    "__v": 0
+  },
+  {
+    "_id": "69749aa8e3932561217db157",
+    "title": "Project Portfolio",
+    "image": "/uploads/catalogue/1769488077804-482925035.png",
+    "pdf": "/uploads/catalogue/1769488077951-584207645.pdf",
+    "createdAt": "2026-01-24T10:10:48.773Z",
+    "updatedAt": "2026-01-27T04:27:58.265Z",
+    "__v": 0
+  }
+]

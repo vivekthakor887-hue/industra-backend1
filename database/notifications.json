@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "6978f4111a39f84833d75b6d",
+    "name": "John Anderson",
+    "message": "New Get In Touch message from John Anderson",
+    "isRead": false,
+    "createdAt": "2026-01-27T17:21:21.942Z",
+    "updatedAt": "2026-01-27T17:21:21.942Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4381a39f84833d75b71",
+    "name": "Sophia Martinez",
+    "message": "New Get In Touch message from Sophia Martinez",
+    "isRead": false,
+    "createdAt": "2026-01-27T17:22:00.417Z",
+    "updatedAt": "2026-01-27T17:22:00.417Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4681a39f84833d75b7c",
+    "name": "Michael Brown",
+    "message": "New Get In Touch message from Michael Brown",
+    "isRead": false,
+    "createdAt": "2026-01-27T17:22:48.209Z",
+    "updatedAt": "2026-01-27T17:22:48.209Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f48e1a39f84833d75b80",
+    "name": "Emma Wilson",
+    "message": "New Get In Touch message from Emma Wilson",
+    "isRead": false,
+    "createdAt": "2026-01-27T17:23:26.899Z",
+    "updatedAt": "2026-01-27T17:23:26.899Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4b91a39f84833d75b84",
+    "name": "Daniel Lee",
+    "message": "New Get In Touch message from Daniel Lee",
+    "isRead": false,
+    "createdAt": "2026-01-27T17:24:09.816Z",
+    "updatedAt": "2026-01-27T17:24:09.816Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4e81a39f84833d75c43",
+    "name": "alex.thompson@example.com",
+    "message": "New newsletter subscription",
+    "isRead": false,
+    "createdAt": "2026-01-27T17:24:56.987Z",
+    "updatedAt": "2026-01-27T17:24:56.987Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4f11a39f84833d75c47",
+    "name": "maria.gonzalez@example.com",
+    "message": "New newsletter subscription",
+    "isRead": false,
+    "createdAt": "2026-01-27T17:25:05.892Z",
+    "updatedAt": "2026-01-27T17:25:05.892Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4f91a39f84833d75c4b",
+    "name": "liam.walker@example.com",
+    "message": "New newsletter subscription",
+    "isRead": false,
+    "createdAt": "2026-01-27T17:25:13.274Z",
+    "updatedAt": "2026-01-27T17:25:13.274Z",
+    "__v": 0
+  },
+  {
+    "_id": "6979ce440084574834ca4d4b",
+    "name": "Rahul Sharma",
+    "message": "New Get In Touch message from Rahul Sharma",
+    "isRead": false,
+    "createdAt": "2026-01-28T08:52:20.527Z",
+    "updatedAt": "2026-01-28T08:52:20.527Z",
+    "__v": 0
+  },
+  {
+    "_id": "6979ce580084574834ca4d4f",
+    "name": "skworledinfo3@gmail.com",
+    "message": "New newsletter subscription",
+    "isRead": false,
+    "createdAt": "2026-01-28T08:52:40.433Z",
+    "updatedAt": "2026-01-28T08:52:40.433Z",
+    "__v": 0
+  },
+  {
+    "_id": "6979cec87145ac335898a458",
+    "name": "Rahul Sharma",
+    "message": "New Get In Touch message from Rahul Sharma",
+    "isRead": false,
+    "createdAt": "2026-01-28T08:54:32.810Z",
+    "updatedAt": "2026-01-28T08:54:32.810Z",
+    "__v": 0
+  },
+  {
+    "_id": "6979cecbc3487bfe6a8dac11",
+    "name": "gfhgf",
+    "message": "New Get In Touch message from gfhgf",
+    "isRead": false,
+    "createdAt": "2026-01-28T08:54:35.891Z",
+    "updatedAt": "2026-01-28T08:54:35.891Z",
+    "__v": 0
+  },
+  {
+    "_id": "6979cfd6a37a5fd047cb7c1f",
+    "name": "Rahul Sharma",
+    "message": "New Get In Touch message from Rahul Sharma",
+    "isRead": false,
+    "createdAt": "2026-01-28T08:59:02.189Z",
+    "updatedAt": "2026-01-28T08:59:02.189Z",
+    "__v": 0
+  },
+  {
+    "_id": "6979e730eb5b5f297a633fa3",
+    "name": "Olivia Taylor",
+    "message": "New Get In Touch message from Olivia Taylor",
+    "isRead": false,
+    "createdAt": "2026-01-28T10:38:40.934Z",
+    "updatedAt": "2026-01-28T10:38:40.934Z",
+    "__v": 0
+  },
+  {
+    "_id": "6979e769eb5b5f297a633fbb",
+    "name": "Isabella Rossi",
+    "message": "New Get In Touch message from Isabella Rossi",
+    "isRead": false,
+    "createdAt": "2026-01-28T10:39:37.433Z",
+    "updatedAt": "2026-01-28T10:39:37.433Z",
+    "__v": 0
+  }
+]

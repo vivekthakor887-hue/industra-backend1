@@ -1,0 +1,146 @@
+[
+  {
+    "_id": "696cb9567fd3222f840f153d",
+    "type": "about",
+    "title": "Our Clients Achievementssf",
+    "label": "About",
+    "pageBgBanner": "/uploads/section/1769255460296-762691404.png",
+    "description": "Discover our range of premium handles designed to elevate your interiors with elegance and durability.",
+    "createdAt": "2026-01-24T13:28:08.429Z",
+    "updatedAt": "2026-01-24T11:51:00.445Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cb95b7fd3222f840f153e",
+    "type": "banner",
+    "title": "Our Clients Achievementssf",
+    "label": "Banner",
+    "pageBgBanner": "",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-18T11:02:07.481Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cb98c7fd3222f840f153f",
+    "type": "blog",
+    "title": "Insights, Updates & <span>Industry Knowledge</span>",
+    "label": "OUR BLOG",
+    "pageBgBanner": "/uploads/section/1769317270715-844107506.png",
+    "description": "Explore articles, insights, and updates focused on business growth, best practices, and practical solutions across different industries.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:39:33.616Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cb9997fd3222f840f1540",
+    "type": "service",
+    "title": "Solutions Designed to Support Every  <span>Business</span> Need",
+    "label": "OUR SERVICES",
+    "image": "/uploads/section/1769316691108-54867140.png",
+    "pageBgBanner": "/uploads/section/1769243710339-72091342.png",
+    "description": "We offer a wide range of professional services focused on quality, efficiency, and long-term value. Our flexible approach allows us to adapt our solutions to meet the unique requirements of businesses across different industries.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:28:47.207Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cb9ab7fd3222f840f1541",
+    "type": "exhibition",
+    "title": "Our Presence at  <span>Industry Events </span>",
+    "label": "EXHIBITIONS",
+    "pageBgBanner": "/uploads/section/1769257741556-251688472.png",
+    "description": "We actively participate in exhibitions and business events to showcase our capabilities, connect with industry professionals, and stay updated with the latest trends and innovations.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:40:37.422Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cb9c07fd3222f840f1542",
+    "type": "faq",
+    "title": "Frequently Asked <span>Questions</span>",
+    "label": "FAQ",
+    "pageBgBanner": "/uploads/section/1769319238588-428489252.png",
+    "description": "Find answers to common questions about our services, process, and approach. If you need more information, feel free to contact our team.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:40:57.632Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cb9cc7fd3222f840f1543",
+    "type": "testimonials",
+    "title": "What Our Clients Say <span>About Us</span>",
+    "label": "TESTIMONIALS",
+    "pageBgBanner": "",
+    "description": "We value the trust our clients place in us. Here’s what they have to say about their experience working with our team and the quality of our solutions.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:39:55.363Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cb9e47fd3222f840f1544",
+    "type": "catalog",
+    "title": "Download Our <span>Catalogues & Resources</span>",
+    "label": "CATALOGUES",
+    "pageBgBanner": "/uploads/section/1769319320061-289938971.png",
+    "description": "Explore and download our catalogues, brochures, and resource materials to learn more about our offerings, capabilities, and solutions.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:41:14.019Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cb9fc7fd3222f840f1545",
+    "type": "project",
+    "title": "Showcasing Our Work and <span> Experience</span>",
+    "label": "OUR PROJECTS",
+    "pageBgBanner": "/uploads/section/1769250653924-259642979.png",
+    "description": "Explore a selection of our completed and ongoing projects that reflect our commitment to quality, planning, and successful execution across diverse business needs.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:37:52.002Z",
+    "__v": 0
+  },
+  {
+    "_id": "696f2de203f57383d08e0d78",
+    "type": "history",
+    "title": "A Timeline of <span>Growth and Experience</span>",
+    "label": "OUR JOURNEY",
+    "pageBgBanner": "",
+    "description": "Our journey is defined by continuous growth, experience, and a commitment to delivering quality solutions built on trust.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:41:28.210Z",
+    "__v": 0
+  },
+  {
+    "_id": "696f5aa103f57383d08e0d7f",
+    "type": "howitwork",
+    "title": "A Simple and Structured <span>Way of Working</span>",
+    "label": "OUR PROCESS",
+    "pageBgBanner": "",
+    "description": "Our process is designed to ensure clarity, efficiency, and quality at every stage. We follow a structured approach to deliver reliable solutions that meet business goals and expectations.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:38:49.040Z",
+    "__v": 0
+  },
+  {
+    "_id": "69706cab65a935d1e06d63cf",
+    "type": "cta",
+    "title": "Let’s Build Something Great Together",
+    "label": "GET STARTED",
+    "image": "/uploads/cta/1769237767498-608598408.png",
+    "pageBgBanner": "",
+    "description": "Share your requirements with us and discover how our solutions can help your business grow with confidence, efficiency, and long-term value.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-24T06:56:07.574Z",
+    "__v": 0
+  },
+  {
+    "_id": "69747512cb9d1f8c498d6253",
+    "type": "contact",
+    "title": "Let’s Connect and Discuss Your <span>Requirements</span>",
+    "label": "CONTACT US",
+    "pageBgBanner": "/uploads/section/1769319432224-73374003.png",
+    "description": "Have a project in mind or need more information about our services? Get in touch with our team and we’ll help you find the right solution tailored to your business needs.",
+    "createdAt": "2026-01-24T13:28:08.430Z",
+    "updatedAt": "2026-01-27T18:42:15.100Z",
+    "__v": 0
+  }
+]

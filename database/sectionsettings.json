@@ -1,0 +1,720 @@
+[
+  {
+    "_id": "697343f2d5790397bc498c71",
+    "sectionType": "home",
+    "items": [
+      {
+        "section_key": "herosection",
+        "section_name": "Hero Section",
+        "updated_section_name": "Hero Section",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 1,
+        "_id": "6979db0165749a0e450b52fa"
+      },
+      {
+        "section_key": "aboutsection",
+        "section_name": "About Section",
+        "updated_section_name": "About Section",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 2,
+        "_id": "6979db0165749a0e450b52fb"
+      },
+      {
+        "section_key": "servicessection",
+        "section_name": "Services Section",
+        "updated_section_name": "Services Section",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 3,
+        "_id": "6979db0165749a0e450b52fc"
+      },
+      {
+        "section_key": "whychooseus",
+        "section_name": "Why Choose Us",
+        "updated_section_name": "Why Choose Us",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 4,
+        "_id": "6979db0165749a0e450b52fd"
+      },
+      {
+        "section_key": "counterstats",
+        "section_name": "Stats/Counter",
+        "updated_section_name": "Stats/Counter",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 5,
+        "_id": "6979db0165749a0e450b52fe"
+      },
+      {
+        "section_key": "projectssection",
+        "section_name": "Projects Section",
+        "updated_section_name": "Projects Section",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 6,
+        "_id": "6979db0165749a0e450b52ff"
+      },
+      {
+        "section_key": "howweworksection",
+        "section_name": "How we work Section",
+        "updated_section_name": "How we work Section",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 7,
+        "_id": "6979db0165749a0e450b5300"
+      },
+      {
+        "section_key": "blogsection",
+        "section_name": "Blog Section",
+        "updated_section_name": "Blog Section",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 8,
+        "_id": "6979db0165749a0e450b5301"
+      },
+      {
+        "section_key": "gallerysection",
+        "section_name": "Gallery Section",
+        "updated_section_name": "Gallery Section",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 9,
+        "_id": "6979db0165749a0e450b5302"
+      },
+      {
+        "section_key": "testimonials",
+        "section_name": "Testimonials",
+        "updated_section_name": "Testimonials",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 10,
+        "_id": "6979db0165749a0e450b5303"
+      },
+      {
+        "section_key": "finalcta",
+        "section_name": "CTA",
+        "updated_section_name": "CTA",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 11,
+        "_id": "6979db0165749a0e450b5304"
+      },
+      {
+        "section_key": "joinournewsletter",
+        "section_name": "Join our Newsletter",
+        "updated_section_name": "Join our Newsletter",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 12,
+        "_id": "6979db0165749a0e450b5305"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.510Z",
+    "__v": 0
+  },
+  {
+    "_id": "697347ced5790397bc498c72",
+    "sectionType": "about",
+    "items": [
+      {
+        "section_key": "about",
+        "section_name": "About Section",
+        "updated_section_name": "About Section",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 1,
+        "_id": "6976ef9a0197e8ba13518920"
+      },
+      {
+        "section_key": "counterstats",
+        "section_name": "Stats/Counter ",
+        "updated_section_name": "Stats/Counter ",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 2,
+        "_id": "6976ef9a0197e8ba13518921"
+      },
+      {
+        "section_key": "howwework",
+        "section_name": "How we work",
+        "updated_section_name": "How we work",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 3,
+        "_id": "6976ef9a0197e8ba13518922"
+      },
+      {
+        "section_key": "video",
+        "section_name": "Video",
+        "updated_section_name": "Video",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 4,
+        "_id": "6976ef9a0197e8ba13518923"
+      },
+      {
+        "section_key": "ourhistory",
+        "section_name": "Our history",
+        "updated_section_name": "Our history",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 5,
+        "_id": "6976ef9a0197e8ba13518924"
+      },
+      {
+        "section_key": "whychooseus",
+        "section_name": "Why Choose Us",
+        "updated_section_name": "Why Choose Us",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 6,
+        "_id": "6976ef9a0197e8ba13518925"
+      },
+      {
+        "section_key": "finalcta",
+        "section_name": "CTA",
+        "updated_section_name": "CTA",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 7,
+        "_id": "6976ef9a0197e8ba13518926"
+      },
+      {
+        "section_key": "joinournewsletter",
+        "section_name": "Join our Newsletter",
+        "updated_section_name": "Join our Newsletter",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 8,
+        "_id": "6976ef9a0197e8ba13518927"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.511Z",
+    "__v": 0
+  },
+  {
+    "_id": "697348d5d5790397bc498c76",
+    "sectionType": "service",
+    "items": [
+      {
+        "section_key": "allservice",
+        "section_name": "All Service Section",
+        "updated_section_name": "All Service Section",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 1,
+        "_id": "6976ef9c0197e8ba13518931"
+      },
+      {
+        "section_key": "testimonials",
+        "section_name": "Testimonials",
+        "updated_section_name": "Testimonials",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 2,
+        "_id": "6976ef9c0197e8ba13518932"
+      },
+      {
+        "section_key": "finalcta",
+        "section_name": "CTA",
+        "updated_section_name": "CTA",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 3,
+        "_id": "6976ef9c0197e8ba13518933"
+      },
+      {
+        "section_key": "newsletter",
+        "section_name": "Join our Newsletter",
+        "updated_section_name": "Join our Newsletter",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 4,
+        "_id": "6976ef9c0197e8ba13518934"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.511Z",
+    "__v": 0
+  },
+  {
+    "_id": "6973490dd5790397bc498c77",
+    "sectionType": "servicedetails",
+    "items": [
+      {
+        "section_key": "leftsection",
+        "section_name": "Left Section",
+        "updated_section_name": "Left Section",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 1,
+        "_id": "6976ef9f0197e8ba1351893a"
+      },
+      {
+        "section_key": "rightsection",
+        "section_name": "Right Section",
+        "updated_section_name": "Right Section",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 2,
+        "_id": "6976ef9f0197e8ba1351893b"
+      },
+      {
+        "section_key": "downloadcatalogue",
+        "section_name": "Download Catalogue Box",
+        "updated_section_name": "Download Catalogue Box",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 3,
+        "_id": "6976ef9f0197e8ba1351893c"
+      },
+      {
+        "section_key": "counterstats",
+        "section_name": "Stats/Counter ",
+        "updated_section_name": "Stats/Counter ",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 4,
+        "_id": "6976ef9f0197e8ba1351893d"
+      },
+      {
+        "section_key": "finalcta",
+        "section_name": "CTA",
+        "updated_section_name": "CTA",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 5,
+        "_id": "6976ef9f0197e8ba1351893e"
+      },
+      {
+        "section_key": "newsletter",
+        "section_name": "Join our Newsletter",
+        "updated_section_name": "Join our Newsletter",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 6,
+        "_id": "6976ef9f0197e8ba1351893f"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.512Z",
+    "__v": 0
+  },
+  {
+    "_id": "6973492fd5790397bc498c78",
+    "sectionType": "project",
+    "items": [
+      {
+        "section_key": "allprojects",
+        "section_name": "All Projects Section",
+        "updated_section_name": "All Service Section",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 1,
+        "_id": "6976efa10197e8ba13518947"
+      },
+      {
+        "section_key": "testimonials",
+        "section_name": "Testimonials",
+        "updated_section_name": "Testimonials",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 2,
+        "_id": "6976efa10197e8ba13518948"
+      },
+      {
+        "section_key": "CTA",
+        "section_name": "CTA",
+        "updated_section_name": "CTA",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 3,
+        "_id": "6976efa10197e8ba13518949"
+      },
+      {
+        "section_key": "Join our Newsletter",
+        "section_name": "Join our Newsletter",
+        "updated_section_name": "Join our Newsletter",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 4,
+        "_id": "6976efa10197e8ba1351894a"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.512Z",
+    "__v": 0
+  },
+  {
+    "_id": "6973495fd5790397bc498c79",
+    "sectionType": "projectdetails",
+    "items": [
+      {
+        "section_key": "projectcontent",
+        "section_name": "Project Content Section",
+        "updated_section_name": "Service Content Section",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 1,
+        "_id": "6976efa70197e8ba13518950"
+      },
+      {
+        "section_key": "relatedservice",
+        "section_name": "Related Service",
+        "updated_section_name": "Related Service",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 2,
+        "_id": "6976efa70197e8ba13518951"
+      },
+      {
+        "section_key": "finalcta",
+        "section_name": "CTA",
+        "updated_section_name": "CTA",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 3,
+        "_id": "6976efa70197e8ba13518952"
+      },
+      {
+        "section_key": "newsletter",
+        "section_name": "Join our Newsletter",
+        "updated_section_name": "Join our Newsletter",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 4,
+        "_id": "6976efa70197e8ba13518953"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.513Z",
+    "__v": 0
+  },
+  {
+    "_id": "69734986d5790397bc498c7a",
+    "sectionType": "blog",
+    "items": [
+      {
+        "section_key": "allblog",
+        "section_name": "All blog Section",
+        "updated_section_name": "All blog Section",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 1,
+        "_id": "6976efa80197e8ba13518959"
+      },
+      {
+        "section_key": "rightsidebar",
+        "section_name": "Right sidebar",
+        "updated_section_name": "Right sidebar",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 2,
+        "_id": "6976efa80197e8ba1351895a"
+      },
+      {
+        "section_key": "finalcta",
+        "section_name": "CTA",
+        "updated_section_name": "CTA",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 3,
+        "_id": "6976efa80197e8ba1351895b"
+      },
+      {
+        "section_key": "newsletter",
+        "section_name": "Join our Newsletter",
+        "updated_section_name": "Join our Newsletter",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 4,
+        "_id": "6976efa80197e8ba1351895c"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.513Z",
+    "__v": 0
+  },
+  {
+    "_id": "697349cfd5790397bc498c7b",
+    "sectionType": "blogdetails",
+    "items": [
+      {
+        "section_key": "blogcontent",
+        "section_name": "Blog Content Section",
+        "updated_section_name": "Blog Content Section",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 1,
+        "_id": "6976efaa0197e8ba13518962"
+      },
+      {
+        "section_key": "rightsidebar",
+        "section_name": "Right Sidebar",
+        "updated_section_name": "Right Sidebar",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 2,
+        "_id": "6976efaa0197e8ba13518963"
+      },
+      {
+        "section_key": "finalcta",
+        "section_name": "CTA",
+        "updated_section_name": "CTA",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 3,
+        "_id": "6976efaa0197e8ba13518964"
+      },
+      {
+        "section_key": "newsletter",
+        "section_name": "Join our Newsletter",
+        "updated_section_name": "Join our Newsletter",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 4,
+        "_id": "6976efaa0197e8ba13518965"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.513Z",
+    "__v": 0
+  },
+  {
+    "_id": "69734a01d5790397bc498c7c",
+    "sectionType": "contact",
+    "items": [
+      {
+        "section_key": "address",
+        "section_name": "Address Section",
+        "updated_section_name": "Address Section",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 1,
+        "_id": "6976efad0197e8ba1351896b"
+      },
+      {
+        "section_key": "phone",
+        "section_name": "Phone",
+        "updated_section_name": "Phone",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 2,
+        "_id": "6976efad0197e8ba1351896c"
+      },
+      {
+        "section_key": "workingtime",
+        "section_name": "Working Time",
+        "updated_section_name": "Working Time",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 3,
+        "_id": "6976efad0197e8ba1351896d"
+      },
+      {
+        "section_key": "form",
+        "section_name": "Form",
+        "updated_section_name": "Form",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 4,
+        "_id": "6976efad0197e8ba1351896e"
+      },
+      {
+        "section_key": "faq",
+        "section_name": "FAQ",
+        "updated_section_name": "FAQ",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 5,
+        "_id": "6976efad0197e8ba1351896f"
+      },
+      {
+        "section_key": "newsletter",
+        "section_name": "Join our Newsletter",
+        "updated_section_name": "Join our Newsletter",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 6,
+        "_id": "6976efad0197e8ba13518970"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.514Z",
+    "__v": 0
+  },
+  {
+    "_id": "69734a2bd5790397bc498c7d",
+    "sectionType": "footer",
+    "items": [
+      {
+        "section_key": "footertext",
+        "section_name": "Footer Text",
+        "updated_section_name": "Footer Text",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 1,
+        "_id": "6976efaf0197e8ba13518978"
+      },
+      {
+        "section_key": "service",
+        "section_name": "Service",
+        "updated_section_name": "Service",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 2,
+        "_id": "6976efaf0197e8ba13518979"
+      },
+      {
+        "section_key": "company",
+        "section_name": "Company",
+        "updated_section_name": "Company",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 3,
+        "_id": "6976efaf0197e8ba1351897a"
+      },
+      {
+        "section_key": "contact",
+        "section_name": "Conatct",
+        "updated_section_name": "Conatct",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 4,
+        "_id": "6976efaf0197e8ba1351897b"
+      },
+      {
+        "section_key": "watermark",
+        "section_name": "Watermark",
+        "updated_section_name": "Watermark",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 5,
+        "_id": "6976efaf0197e8ba1351897c"
+      },
+      {
+        "section_key": "copyright",
+        "section_name": "Copyright",
+        "updated_section_name": "Copyright",
+        "is_visible": true,
+        "is_visible_footer": null,
+        "display_order": 6,
+        "_id": "6976efaf0197e8ba1351897d"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.514Z",
+    "__v": 0
+  },
+  {
+    "_id": "697497f1cb9d1f8c498d625b",
+    "sectionType": "header",
+    "items": [
+      {
+        "section_key": "homesection",
+        "section_name": "Home Section",
+        "updated_section_name": "Home",
+        "is_visible": true,
+        "is_visible_footer": false,
+        "display_order": 1,
+        "_id": "6978f6a51a39f84833d76a31"
+      },
+      {
+        "section_key": "aboutsection",
+        "section_name": "About Section",
+        "updated_section_name": "About",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 2,
+        "_id": "6978f6a51a39f84833d76a32"
+      },
+      {
+        "section_key": "servicessection",
+        "section_name": "Services Section",
+        "updated_section_name": "Services",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 3,
+        "_id": "6978f6a51a39f84833d76a33"
+      },
+      {
+        "section_key": "projectssection",
+        "section_name": "Projects Section",
+        "updated_section_name": "Projects",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 4,
+        "_id": "6978f6a51a39f84833d76a34"
+      },
+      {
+        "section_key": "blogssection",
+        "section_name": "Blogs Section",
+        "updated_section_name": "Blogs",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 5,
+        "_id": "6978f6a51a39f84833d76a35"
+      },
+      {
+        "section_key": "contactsection",
+        "section_name": "Contact Section",
+        "updated_section_name": "Contact",
+        "is_visible": true,
+        "is_visible_footer": true,
+        "display_order": 6,
+        "_id": "6978f6a51a39f84833d76a36"
+      },
+      {
+        "section_key": "faqsection",
+        "section_name": "FAQ Section",
+        "updated_section_name": "FAQ",
+        "is_visible": false,
+        "is_visible_footer": true,
+        "display_order": 7,
+        "_id": "6978f6a51a39f84833d76a37"
+      },
+      {
+        "section_key": "cataloguesection",
+        "section_name": "Catalogue Section",
+        "updated_section_name": "Catalogue",
+        "is_visible": false,
+        "is_visible_footer": true,
+        "display_order": 8,
+        "_id": "6978f6a51a39f84833d76a38"
+      },
+      {
+        "section_key": "exhibitionsection",
+        "section_name": "Exhibition Section",
+        "updated_section_name": "Exhibition",
+        "is_visible": false,
+        "is_visible_footer": true,
+        "display_order": 9,
+        "_id": "6978f6a51a39f84833d76a39"
+      },
+      {
+        "section_key": "getquote",
+        "section_name": "GetQuote Section",
+        "updated_section_name": "Get A Quote",
+        "is_visible": true,
+        "is_visible_footer": false,
+        "display_order": 10,
+        "_id": "6978f6a51a39f84833d76a3a"
+      },
+      {
+        "section_key": "search",
+        "section_name": "Search Section",
+        "updated_section_name": "Search",
+        "is_visible": true,
+        "is_visible_footer": false,
+        "display_order": 11,
+        "_id": "6978f6a51a39f84833d76a3b"
+      },
+      {
+        "section_key": "sidebar",
+        "section_name": "Sidebar Section",
+        "updated_section_name": "Quality solutions, planned and executed right.",
+        "is_visible": true,
+        "is_visible_footer": false,
+        "display_order": 12,
+        "_id": "6978f6a51a39f84833d76a3c"
+      }
+    ],
+    "createdAt": "2026-01-25T04:42:23.516Z",
+    "__v": 0
+  }
+]

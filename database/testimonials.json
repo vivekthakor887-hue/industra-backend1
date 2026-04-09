@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "696e0b14bc22392e917d3662",
+    "clientName": "Sneha Iyer",
+    "quote": "Their transparent communication and focus on quality made the entire process easy and stress-free. We are happy with the results and ongoing support.",
+    "location": "Bengaluru, India",
+    "rating": 5,
+    "createdAt": "2026-01-19T10:44:36.840Z",
+    "updatedAt": "2026-01-24T10:23:28.300Z",
+    "__v": 0
+  },
+  {
+    "_id": "696e0b4cbc22392e917d3665",
+    "clientName": "Rahul Mehta",
+    "quote": "A reliable and professional team to work with. The project was managed smoothly from planning to delivery, and the quality of work was excellent.",
+    "location": "Pune, India",
+    "rating": 3,
+    "createdAt": "2026-01-19T10:45:32.548Z",
+    "updatedAt": "2026-01-24T10:22:16.532Z",
+    "__v": 0
+  },
+  {
+    "_id": "696e0b75bc22392e917d3668",
+    "clientName": "Neha Patel",
+    "quote": "We were impressed with the structured approach and timely delivery. The team understood our requirements well and executed the project efficiently.",
+    "location": "Ahmedabad, India",
+    "rating": 5,
+    "createdAt": "2026-01-19T10:46:13.508Z",
+    "updatedAt": "2026-01-24T10:21:23.048Z",
+    "__v": 0
+  },
+  {
+    "_id": "696e0baabc22392e917d366b",
+    "clientName": "Amit Sharma",
+    "quote": "The team delivered our project with professionalism and attention to detail. Communication was clear throughout the process, and the final outcome met our expectations.",
+    "location": "Mumbai, India",
+    "rating": 4,
+    "createdAt": "2026-01-19T10:47:06.772Z",
+    "updatedAt": "2026-01-24T10:20:39.744Z",
+    "__v": 0
+  },
+  {
+    "_id": "69749dcf79525bd164e19c31",
+    "clientName": "Vikram Singh",
+    "quote": "The team demonstrated strong expertise and commitment throughout the project. Deadlines were met, and the execution was well-organized and efficient.",
+    "location": "New Delhi, India",
+    "rating": 4,
+    "createdAt": "2026-01-24T10:24:15.704Z",
+    "updatedAt": "2026-01-24T10:24:15.704Z",
+    "__v": 0
+  },
+  {
+    "_id": "69749dfd79525bd164e19c34",
+    "clientName": "Priya Nair",
+    "quote": "Working with this team was a great experience. They delivered exactly what was promised and maintained a high standard of quality throughout the project.",
+    "location": "Kochi, India",
+    "rating": 3,
+    "createdAt": "2026-01-24T10:25:01.648Z",
+    "updatedAt": "2026-01-24T10:25:01.648Z",
+    "__v": 0
+  }
+]

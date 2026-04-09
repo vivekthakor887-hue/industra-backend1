@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "696cc14e0d19a0d090ec154f",
+    "type": "home",
+    "metaTitle": "Industra | Smart Business Solutions & Services",
+    "metaDescription": "Industra provides smart, reliable, and quality-driven business solutions designed to support growth through efficient planning and execution.",
+    "metaKeywords": "business solutions, professional services, project execution, corporate services, industry solutions",
+    "createdAt": "2026-01-18T11:17:34.402Z",
+    "updatedAt": "2026-01-28T07:24:39.475Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cc1970d19a0d090ec15a6",
+    "type": "contact",
+    "metaTitle": "Contact Us | Industra Business Solutions",
+    "metaDescription": "Get in touch with Industra to discuss your project requirements or request a quote for professional business solutions.",
+    "metaKeywords": "contact industra, business enquiry, get quote, professional services contact",
+    "createdAt": "2026-01-18T11:18:47.099Z",
+    "updatedAt": "2026-01-26T06:18:08.967Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cc19b0d19a0d090ec15ac",
+    "type": "blog",
+    "metaTitle": "Blog & Insights | Industra",
+    "metaDescription": "Read expert insights, updates, and articles from Industra focused on business growth, best practices, and industry trends.",
+    "metaKeywords": "business blog, industry insights, project tips, business growth articles, professional insights",
+    "createdAt": "2026-01-18T11:18:51.994Z",
+    "updatedAt": "2026-01-26T06:17:36.085Z",
+    "__v": 0
+  },
+  {
+    "_id": "696cc34d0d19a0d090ec179e",
+    "type": "about",
+    "metaTitle": " About Us | Industra Business Solutions",
+    "metaDescription": "Learn more about Industra, our experience, values, and commitment to delivering reliable solutions for businesses across industries.",
+    "metaKeywords": "about industra, company profile, business expertise, professional team, corporate solutions",
+    "createdAt": "2026-01-18T11:26:05.456Z",
+    "updatedAt": "2026-01-26T06:15:27.737Z",
+    "__v": 0
+  },
+  {
+    "_id": "69709d9fb4c3cec842dc6aaf",
+    "type": "projects",
+    "metaTitle": " Projects & Portfolio | Industra",
+    "metaDescription": "View our portfolio of completed and ongoing projects showcasing Industra’s expertise, quality, and execution excellence.",
+    "metaKeywords": "business projects, corporate projects, project portfolio, completed projects, case studies",
+    "createdAt": "2026-01-21T09:34:23.849Z",
+    "updatedAt": "2026-01-26T06:16:37.325Z",
+    "__v": 0
+  },
+  {
+    "_id": "6974860ae1fcab44c9cef278",
+    "type": "exhibition",
+    "metaTitle": "Exhibitions & Events | Industra",
+    "metaDescription": "Discover Industra’s participation in exhibitions and industry events where we showcase our solutions and expertise.",
+    "metaKeywords": "business exhibitions, industry events, trade shows, corporate exhibitions",
+    "createdAt": "2026-01-24T08:42:50.051Z",
+    "updatedAt": "2026-01-26T06:20:23.143Z",
+    "__v": 0
+  },
+  {
+    "_id": "6974861ae1fcab44c9cef28e",
+    "type": "faq",
+    "metaTitle": "FAQs | Industra Business Solutions",
+    "metaDescription": "Find answers to common questions about Industra’s services, process, and business solutions.",
+    "metaKeywords": "frequently asked questions, industra faq, business services faq, service queries",
+    "createdAt": "2026-01-24T08:43:06.342Z",
+    "updatedAt": "2026-01-26T06:21:35.411Z",
+    "__v": 0
+  },
+  {
+    "_id": "69748623e1fcab44c9cef293",
+    "type": "catalogue",
+    "metaTitle": "Catalogues & Resources | Industra",
+    "metaDescription": "Download Industra’s catalogues, brochures, and resources to explore our services, projects, and capabilities.",
+    "metaKeywords": "business catalogues, company brochure, service catalogue, downloadable resources",
+    "createdAt": "2026-01-24T08:43:15.159Z",
+    "updatedAt": "2026-01-26T06:20:58.223Z",
+    "__v": 0
+  },
+  {
+    "_id": "69748634e1fcab44c9cef2a2",
+    "type": "services",
+    "metaTitle": "Our Services | Industra Professional Solutions",
+    "metaDescription": "Explore Industra’s range of professional services including consulting, planning, execution, and custom business solutions.",
+    "metaKeywords": "business services, consulting services, project management, custom solutions, professional services",
+    "createdAt": "2026-01-24T08:43:32.848Z",
+    "updatedAt": "2026-01-26T06:15:58.206Z",
+    "__v": 0
+  }
+]

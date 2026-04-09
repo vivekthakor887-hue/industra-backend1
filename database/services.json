@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "69708ca85b9d0ef12dfe1fff",
+    "title": "Design & Execution",
+    "description": "<p>End-to-end design and execution services delivered with precision, quality, and attention to detail.</p>",
+    "features": "Concept Development,Detailed Execution Planning,Quality Control,Timely Delivery",
+    "labels": [
+      " Translate ideas into practical and functional design concepts.",
+      " Ensure every stage of execution is planned with accuracy and clarity.",
+      " Maintain strict quality checks throughout the execution process.",
+      " Ensure projects are completed within defined timelines without compromise."
+    ],
+    "image": "/uploads/service/1769343131045-249735256.png",
+    "createdAt": "2026-01-21T08:22:00.670Z",
+    "updatedAt": "2026-01-25T12:12:11.148Z",
+    "__v": 1
+  },
+  {
+    "_id": "69708d25f4f246761265a7de",
+    "title": "Consulting & Planning",
+    "description": "<p>Strategic consultation and planning services to help businesses define goals, optimize processes, and build a clear execution roadmap.</p>",
+    "features": "Requirement Analysis,Strategic Planning,Risk Assessment,Execution Roadmap",
+    "labels": [
+      " We carefully analyze business goals and requirements to define a clear project direction.",
+      "Develop structured plans that align resources, timelines, and objectives effectively.",
+      "Identify potential challenges early and plan solutions to minimize impact.",
+      "Create a step-by-step roadmap to ensure smooth and controlled execution."
+    ],
+    "image": "/uploads/service/1769242577206-177026484.png",
+    "createdAt": "2026-01-21T08:24:05.367Z",
+    "updatedAt": "2026-01-25T11:51:15.382Z",
+    "__v": 1
+  },
+  {
+    "_id": "69735fa6df1b1e809e0e759d",
+    "title": "Project Management",
+    "description": "<p>Structured project management to ensure smooth coordination, efficient execution, and on-time delivery.</p>",
+    "features": "Project Coordination,Progress Monitoring,Communication Management,On-Time Completion",
+    "labels": [
+      "Manage teams, resources, and timelines for smooth project flow.",
+      "Track project milestones and performance at every stage.",
+      "Maintain clear and transparent communication with all stakeholders.",
+      "Ensure delivery as per agreed schedules and expectations."
+    ],
+    "image": "/uploads/service/1769242346675-76093298.png",
+    "createdAt": "2026-01-23T11:46:46.535Z",
+    "updatedAt": "2026-01-25T11:55:36.586Z",
+    "__v": 1
+  },
+  {
+    "_id": "69736051df1b1e809e0e77f8",
+    "title": "Technical Support & Maintenance",
+    "description": "<p>Reliable technical support and ongoing maintenance to keep operations running smoothly and efficiently.</p>",
+    "features": "Ongoing Support,Issue Resolution,System Optimization,Preventive Maintenance",
+    "labels": [
+      " Provide continuous support to ensure smooth operations post-delivery.",
+      "Quickly identify and resolve technical or operational issues.",
+      " Improve performance and efficiency through regular checks.",
+      "Reduce downtime with proactive maintenance and monitoring."
+    ],
+    "image": "/uploads/service/1769343416076-202060278.png",
+    "createdAt": "2026-01-23T11:49:37.841Z",
+    "updatedAt": "2026-01-25T12:16:56.197Z",
+    "__v": 1
+  },
+  {
+    "_id": "697360cfdf1b1e809e0e7929",
+    "title": "Custom Business Solutions",
+    "description": "<p>Tailored solutions designed around specific business requirements, ensuring flexibility and scalability.</p>",
+    "features": "Tailored Approach,Scalable Solutions,Client Collaboration,Result-Oriented Delivery",
+    "labels": [
+      "Develop solutions specifically designed for unique business needs.",
+      "Ensure solutions can grow and adapt with business expansion.",
+      "Work closely with clients to align solutions with expectations.",
+      "Focus on measurable outcomes and long-term value."
+    ],
+    "image": "/uploads/service/1769236997858-775011567.png",
+    "createdAt": "2026-01-23T11:51:43.231Z",
+    "updatedAt": "2026-01-25T11:59:08.830Z",
+    "__v": 1
+  }
+]

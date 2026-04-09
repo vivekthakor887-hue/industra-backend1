@@ -1,0 +1,19 @@
+<%
+  const btnId = typeof id !== 'undefined' ? id : '';
+  const btnType = typeof type !== 'undefined' ? type : 'btn-primary';
+  const btnLabel = typeof label !== 'undefined' ? label : '';
+  const btnIcon = typeof icon !== 'undefined' ? icon : '';
+  const btnClass = typeof className !== 'undefined' ? className : '';
+  const btnAttr = typeof attr !== 'undefined' ? attr : '';
+%>
+
+<button 
+  id="<%= btnId %>" 
+  class="btn <%= btnType %> px-4 <%= btnClass %>"
+  <%- btnAttr %>
+>
+  <% if (btnIcon) { %>
+    <i class="<%= btnIcon %> me-2"></i>
+  <% } %>
+  <%= btnLabel %>
+</button>

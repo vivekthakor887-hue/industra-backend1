@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "697060f7b17a2930ff3fc9b6",
+    "items": [
+      {
+        "iconName": "ChartGantt",
+        "title": "Consultation & Planning",
+        "shortDescription": "We begin by understanding your requirements, objectives, and challenges to create a clear and effective plan.",
+        "_id": "6977550af6a3f698bebfb7d2"
+      },
+      {
+        "iconName": "Lightbulb",
+        "title": "Execution & Implementation",
+        "shortDescription": "Our team executes the plan with precision, maintaining quality standards and clear communication throughout the process.",
+        "_id": "6977550af6a3f698bebfb7d3"
+      },
+      {
+        "iconName": "CircleCheck",
+        "title": "Delivery & Support",
+        "shortDescription": "We ensure smooth project delivery and provide ongoing support to maintain long-term performance and satisfaction.",
+        "_id": "6977550af6a3f698bebfb7d4"
+      }
+    ],
+    "image": "/uploads/howitwork/1769428234358-404837873.png",
+    "backgroundImage": "/uploads/howitwork/1769428234441-177830106.png",
+    "createdAt": "2026-01-21T05:15:35.375Z",
+    "updatedAt": "2026-01-26T11:50:34.821Z",
+    "__v": 0
+  }
+]

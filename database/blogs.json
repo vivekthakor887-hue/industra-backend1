@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "696df3dd90b00669fa74c4e0",
+    "category": "696de9276a12bf31f0da7cf5",
+    "title": "Improving Operational Efficiency Across Teams",
+    "description": "<p>Practical approaches to streamline operations and enhance collaboration across business teams.</p>",
+    "image": "/uploads/blog/1769234051115-358597397.png",
+    "thumbnail": "/uploads/blog/thumb/thumb_1769234051115-358597397.png",
+    "date": "2026-01-18T00:00:00.000Z",
+    "createdAt": "2026-01-19T09:05:33.354Z",
+    "updatedAt": "2026-01-25T11:45:04.857Z",
+    "__v": 0
+  },
+  {
+    "_id": "696df41390b00669fa74c4e7",
+    "category": "696de9026a12bf31f0da7ce6",
+    "title": "Why Planning Matters in Successful Projects",
+    "description": "<p>Discover the importance of planning and how it impacts timelines, quality, and project outcomes.</p>",
+    "image": "/uploads/blog/1769233424114-897617408.png",
+    "thumbnail": "/uploads/blog/thumb/thumb_1769233424114-897617408.png",
+    "date": "2025-03-18T00:00:00.000Z",
+    "createdAt": "2026-01-19T09:06:27.393Z",
+    "updatedAt": "2026-01-24T05:43:44.196Z",
+    "__v": 0
+  },
+  {
+    "_id": "696df43f90b00669fa74c4ee",
+    "category": "696de92f6a12bf31f0da7cfa",
+    "title": "The Role of Quality in Long-Term Success",
+    "description": "<p>Why maintaining quality standards is essential for building trust and achieving sustainable growth.</p>",
+    "image": "/uploads/blog/1769234177208-163995999.png",
+    "thumbnail": "/uploads/blog/thumb/thumb_1769234177208-163995999.png",
+    "date": "2025-04-02T00:00:00.000Z",
+    "createdAt": "2026-01-19T09:07:11.193Z",
+    "updatedAt": "2026-01-25T11:45:20.828Z",
+    "__v": 0
+  },
+  {
+    "_id": "696dfbb6ffb6b283f2a39716",
+    "category": "696de90e6a12bf31f0da7ceb",
+    "title": "Building Efficient Business Processes",
+    "description": "<p>Learn how structured processes can improve efficiency, reduce errors, and support long-term business growth.</p>",
+    "image": "/uploads/blog/1769233067072-100981050.png",
+    "thumbnail": "/uploads/blog/thumb/thumb_1769233067072-100981050.png",
+    "date": "2025-03-10T00:00:00.000Z",
+    "createdAt": "2026-01-19T09:39:02.442Z",
+    "updatedAt": "2026-01-25T11:44:58.371Z",
+    "__v": 0
+  },
+  {
+    "_id": "697460113dae1b7fd64754be",
+    "category": "696de9026a12bf31f0da7ce6",
+    "title": "Managing Projects with Transparency and Trust",
+    "description": "<p>How clear communication and transparency lead to better project execution and client satisfaction.</p>",
+    "image": "/uploads/blog/1769234449702-309185772.png",
+    "thumbnail": "/uploads/blog/thumb/thumb_1769234449702-309185772.png",
+    "date": "2025-04-08T00:00:00.000Z",
+    "createdAt": "2026-01-24T06:00:49.765Z",
+    "updatedAt": "2026-01-25T11:45:13.845Z",
+    "__v": 0
+  },
+  {
+    "_id": "697460503dae1b7fd64754c5",
+    "category": "696de8e36a12bf31f0da7cd7",
+    "title": "Adapting Business Solutions for Changing Needs",
+    "description": "<p>Explore how flexible and adaptable solutions help businesses respond to evolving market demands.</p>",
+    "image": "/uploads/blog/1769234512598-798800309.png",
+    "thumbnail": "/uploads/blog/thumb/thumb_1769234512598-798800309.png",
+    "date": "2025-04-15T00:00:00.000Z",
+    "createdAt": "2026-01-24T06:01:52.653Z",
+    "updatedAt": "2026-01-25T11:44:51.996Z",
+    "__v": 0
+  }
+]

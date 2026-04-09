@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "696f5864e71b5b22cbd798bd",
+    "label": "Industry Presence",
+    "count": 10,
+    "shortdescription": "Supporting businesses across multiple sectors with adaptable solutions.",
+    "createdAt": "2026-01-20T10:26:44.732Z",
+    "updatedAt": "2026-01-23T11:57:49.367Z",
+    "__v": 0
+  },
+  {
+    "_id": "696f587ee71b5b22cbd798c0",
+    "label": "Happy Clients",
+    "count": 120,
+    "shortdescription": "Building long-term relationships through trust, transparency, and results.",
+    "createdAt": "2026-01-20T10:27:10.755Z",
+    "updatedAt": "2026-01-23T11:57:18.545Z",
+    "__v": 0
+  },
+  {
+    "_id": "696f5892e71b5b22cbd798c3",
+    "label": "Projects Completed",
+    "count": 250,
+    "shortdescription": "Successfully planned and executed projects with a focus on quality and efficiency.",
+    "createdAt": "2026-01-20T10:27:30.227Z",
+    "updatedAt": "2026-01-23T11:56:24.127Z",
+    "__v": 0
+  },
+  {
+    "_id": "696f58a9e71b5b22cbd798c6",
+    "label": "Years of Experience",
+    "count": 15,
+    "shortdescription": "Delivering consistent and reliable solutions across diverse business needs.",
+    "createdAt": "2026-01-20T10:27:53.828Z",
+    "updatedAt": "2026-01-23T11:55:41.336Z",
+    "__v": 0
+  }
+]

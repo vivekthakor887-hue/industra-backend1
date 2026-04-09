@@ -1,0 +1,287 @@
+<%- include('../includes/header', {admin}) %>
+
+  <div class="body-wrapper">
+    <div class="container-fluid">
+      <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+        <div class="card-body px-4 py-3">
+          <div class="row align-items-center">
+            <div class="col-md-8 col-sm-7">
+              <h4 class="fw-semibold mb-1">Manage Setting</h4>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+   
+      <div class="card shadow-sm">
+        <div class="card-body">
+
+          <form id="contactForm" enctype="multipart/form-data">
+            <div class="row g-3">
+              <h6 class="fw-bold mt-4">Theme Setting</h6>
+
+    <div class="row g-2">
+      <div class="col-md-4">
+        <%- include("../includes/input", {
+          label: "Primary Color",
+          name: "primaryColor",
+          className: "color-lg",
+          type: "color",
+          value: contact?.primaryColor || "#000000"
+        }) %>
+      </div>
+
+      <div class="col-md-4">
+        <%- include("../includes/input", {
+          label: "Secondary Color",
+          name: "secondaryColor",
+          type: "color",
+          className: "color-lg",
+          value: contact?.secondaryColor || "#ffffff"
+        }) %>
+      </div>
+
+      <div class="col-md-4">
+        <%- include("../includes/input", {
+          label: "Accent Color",
+          name: "accentColor",
+          type: "color",
+          className: "color-lg",
+          value: contact?.accentColor || "#ff0000"
+        }) %>
+      </div>
+    </div>
+
+
+ <div class="row g-3 align-items-end mt-2">
+  <div class="col-md-5">
+    <%- include("../includes/input", {
+      label: "General Border Radius",
+      name: "generalBorderRadius",
+      type: "number",
+      value: contact?.generalBorderRadius || 0
+    }) %>
+  </div>
+
+  <div class="col-md-5">
+    <%- include("../includes/input", {
+      label: "Button Radius",
+      name: "buttonRadius",
+      type: "number",
+      value: contact?.buttonRadius || 0
+    }) %>
+  </div>
+
+  <!-- CHECKBOX COLUMN -->
+  <div class="col-md-2 d-flex align-items-center mb-2 justify-content-center">
+    <div class="form-check form-switch d-flex align-items-center gap-2">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        name="badgeLayout"
+        id="badgeLayout"
+        <%= contact?.badgeLayout ? "checked" : "" %>
+      />
+      <label class="form-check-label fw-medium mb-0" for="badgeLayout">
+        Enable Badge Layout
+      </label>
+    </div>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-md-6"><%- include('../includes/select', {
+  label: "Header Font",
+  name: "headerFont",
+  id: "headerFont",
+  options: [
+    { title: "inter", value: "inter", selected: contact?.headerFont === "inter" },
+    { title: "Raleway", value: "raleway", selected: contact?.headerFont === "raleway" },
+    { title: "Poppins", value: "poppins", selected: contact?.headerFont === "poppins" },
+    { title: "Dmsans", value: "dmsans", selected: contact?.headerFont === "dmsans" },
+    { title: "Montserrat", value: "montserrat", selected: contact?.headerFont === "montserrat" }
+  ]
+}) %>
+</div>
+<div class="col-md-6">
+  <%- include('../includes/select', {
+  label: "General Font",
+  name: "generalFont",
+  id: "generalFont",
+  options: [
+    { title: "Inter", value: "inter", selected: contact?.generalFont === "inter" },
+    { title: "Raleway", value: "raleway", selected: contact?.generalFont === "raleway" },
+    { title: "Poppins", value: "poppins", selected: contact?.generalFont === "poppins" },
+    { title: "Dmsans", value: "dmsans", selected: contact?.headerFont === "dmsans" },
+    { title: "Montserrat", value: "montserrat", selected: contact?.headerFont === "montserrat" }
+  ]
+}) %>
+</div>
+</div>
+
+
+              <!-- Logo -->
+              <div class="col-md-4">
+                <label class="form-label fw-bold">Company Light Logo</label>
+                <input type="file" class="form-control" id="logoInput" name="image" />
+                <small class="text-muted d-block mt-1">
+                  <i class="fa-solid fa-circle-info text-primary"></i>
+                  Recommended Size: <strong>330 x 69 px</strong>, Formats: <strong>/jpeg|jpg|png|webp/</strong>
+                </small>
+                <img id="logoPreview" src="<%= contact && contact.logo ? contact.logo : '' %>" alt="Preview"
+                  class="mt-2 border rounded"
+                  style="max-width: 100px; display: <%= contact && contact.logo ? 'block' : 'none' %>;">
+              </div>
+
+              <div class="col-md-4">
+                <label class="form-label fw-bold">Favicon</label>
+                <input type="file" class="form-control" id="faviconInput" name="favicon" />
+                <small class="text-muted d-block mt-1">
+                  Recommended Size: <strong>84 × 84</strong><br>
+                  Formats: <strong>png / ico</strong>
+                </small>
+                <img id="faviconPreview" src="<%= contact?.favicon || '' %>" class="mt-2 border rounded"
+                  style="max-width:50px; display:<%= contact?.favicon ? 'block' : 'none' %>;">
+              </div>
+              <!-- Dark Logo -->
+              <div class="col-md-4">
+                <label class="form-label fw-bold">Company Dark Logo</label>
+                <input type="file" class="form-control" id="darkLogoInput" name="darkLogo" />
+                <small class="text-muted d-block mt-1">
+                  <i class="fa-solid fa-circle-info text-primary"></i>
+                  Recommended Size: <strong>330 x 69 px</strong>, Formats: <strong>/jpeg|jpg|png|webp/</strong>
+                </small>
+
+                <img id="darkLogoPreview" src="<%= contact?.darkLogo || '' %>" class="mt-2 border rounded"
+                  style="max-width:100px; display:<%= contact?.darkLogo ? 'block' : 'none' %>;">
+              </div>
+              <h6 class="fw-bold mt-4">Contact Information</h6>
+
+              <!-- Company Name -->
+              <div class="col-md-6">
+                <%- include("../includes/input", { label: "Company Name" , name: "companyName" , value:
+                  contact?.companyName || "" , required: true }) %>
+              </div>
+
+               <div class="col-md-6">
+                <%- include("../includes/input", { label: "email" , name: "email" , value:
+                  contact?.email || "" , required: true }) %>
+              </div>
+<!-- Working Time -->
+<div class="col-12 mt-3">
+  <label class="form-label fw-bold">Working Time</label>
+
+  <div id="workingTimeContainer">
+    <% if (contact && contact.workingtime && contact.workingtime.length) { %>
+      <% contact.workingtime.forEach(function(time){ %>
+        <div class="input-group mb-2">
+          <input type="text" name="workingtime" class="form-control" value="<%= time %>">
+          <button type="button" class="btn btn-outline-danger removeWorkingTime">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </div>
+      <% }) %>
+    <% } else { %>
+      <div class="input-group mb-2">
+        <input type="text" name="workingtime" class="form-control" placeholder="e.g. Mon–Fri 9AM–6PM">
+        <button type="button" class="btn btn-outline-danger removeWorkingTime">
+          <i class="fa-solid fa-trash"></i>
+        </button>
+      </div>
+    <% } %>
+  </div>
+
+  <button type="button" class="btn btn-outline-primary btn-sm mt-1" id="addWorkingTime">
+    <i class="fa-solid fa-plus"></i> Add Working Time
+  </button>
+</div>
+<!-- About Company -->
+   <div class="col-12">
+                <%- include("../includes/textarea", { label: "About Company" , name: "aboutcompany" , rows: 2, value:
+                  contact?.aboutcompany || "", required: true }) %>
+              </div>
+
+              <!-- Address -->
+              <div class="col-12">
+                <%- include("../includes/textarea", { label: "Address" , name: "address" , rows: 2, value:
+                  contact?.address || "" }) %>
+              </div>
+
+              <!-- Phones -->
+              <div class="col-12">
+                <label class="form-label fw-bold">Phone Numbers</label>
+                <div id="phoneContainer">
+                  <% if (contact && contact.phones && contact.phones.length) { %>
+                    <% contact.phones.forEach(function(phone){ %>
+                      <div class="input-group mb-2">
+                        <input type="text" name="phones" class="form-control" value="<%= phone %>">
+                        <button type="button" class="btn btn-outline-danger removePhone"><i
+                            class="fa-solid fa-trash"></i></button>
+                      </div>
+                      <% }) %>
+                        <% } else { %>
+                          <div class="input-group mb-2">
+                            <input type="text" name="phones" class="form-control" placeholder="Enter phone number">
+                            <button type="button" class="btn btn-outline-danger removePhone"><i
+                                class="fa-solid fa-trash"></i></button>
+                          </div>
+                          <% } %>
+                </div>
+                <button type="button" class="btn btn-outline-primary btn-sm mt-1" id="addPhone">
+                  <i class="fa-solid fa-plus"></i> Add Phone
+                </button>
+              </div>
+
+              <h6 class="fw-bold mt-4">Social Links</h6>
+              <!-- Social Links -->
+              <div class="col-md-6">
+                <%- include("../includes/input", { label: "Facebook" , name: "facebook" , value:
+                  contact?.socialLinks?.facebook || "" }) %>
+              </div>
+
+              <div class="col-md-6">
+                <%- include("../includes/input", { label: "Instagram" , name: "instagram" , value:
+                  contact?.socialLinks?.instagram || "" }) %>
+              </div>
+
+              <div class="col-md-6">
+                <%- include("../includes/input", { label: "X (Twitter)" , name: "x" , value: contact?.socialLinks?.x
+                  || "" }) %>
+              </div>
+
+              <div class="col-md-6">
+                <%- include("../includes/input", { label: "LinkedIn" , name: "linkedin" , value:
+                  contact?.socialLinks?.linkedin || "" }) %>
+              </div>
+
+              <div class="col-md-6">
+                <%- include("../includes/input", { label: "YouTube" , name: "youtube" , value:
+                  contact?.socialLinks?.youtube || "" }) %>
+              </div>
+
+              <!-- Submit -->
+              <div class="col-12  mt-3">
+                <%- include("../includes/button", { label: "Save" , type: "btn-primary px-4 w-100" , attr: 'type="submit"' })
+                  %>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+
+
+
+    </div>
+  </div>
+  </div>
+
+  <%- include('../includes/allscripts') %>
+    <script src="/js/viewjs/contact.js"></script>

@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "6978f4e81a39f84833d75c41",
+    "email": "alex.thompson@example.com",
+    "createdAt": "2026-01-27T17:24:56.786Z",
+    "updatedAt": "2026-01-27T17:24:56.786Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4f11a39f84833d75c45",
+    "email": "maria.gonzalez@example.com",
+    "createdAt": "2026-01-27T17:25:05.692Z",
+    "updatedAt": "2026-01-27T17:25:05.692Z",
+    "__v": 0
+  },
+  {
+    "_id": "6978f4f91a39f84833d75c49",
+    "email": "liam.walker@example.com",
+    "createdAt": "2026-01-27T17:25:13.074Z",
+    "updatedAt": "2026-01-27T17:25:13.074Z",
+    "__v": 0
+  }
+]

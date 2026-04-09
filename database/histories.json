@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "69708f1d5c75e15c6d117884",
+    "title": "First Major Project",
+    "description": "<p>Successfully completed the first large-scale project, marking a strong foundation for future growth.</p>",
+    "image": "/uploads/history/1769346734511-350345723.png",
+    "year": "2017",
+    "createdAt": "2026-01-21T08:32:29.579Z",
+    "updatedAt": "2026-01-25T13:12:14.574Z",
+    "__v": 0
+  },
+  {
+    "_id": "69708f3e5c75e15c6d1178db",
+    "title": "Company Founded",
+    "description": "<p>The company was established with a vision to deliver reliable and quality-driven solutions for modern businesses.</p>",
+    "image": "/uploads/history/1769346725298-206028234.png",
+    "year": "2015",
+    "createdAt": "2026-01-21T08:33:02.931Z",
+    "updatedAt": "2026-01-25T13:12:05.360Z",
+    "__v": 0
+  },
+  {
+    "_id": "697611ddf4ad416c29d6e6f4",
+    "title": "Team Expansion",
+    "description": "<p>Expanded the core team and capabilities to support larger projects and diverse client requirements.</p>",
+    "image": "/uploads/history/1769346760805-601723194.png",
+    "year": "2019",
+    "createdAt": "2026-01-25T12:51:41.722Z",
+    "updatedAt": "2026-01-25T13:12:40.857Z",
+    "__v": 0
+  },
+  {
+    "_id": "69761201f4ad416c29d6e6f7",
+    "title": "Process & Quality Upgrade",
+    "description": "<p>Introduced structured processes and quality standards to improve efficiency and delivery consistency.</p>",
+    "image": "/uploads/history/1769346753251-20931034.png",
+    "year": "2021",
+    "createdAt": "2026-01-25T12:52:17.267Z",
+    "updatedAt": "2026-01-25T13:12:33.303Z",
+    "__v": 0
+  },
+  {
+    "_id": "69761222f4ad416c29d6e762",
+    "title": "Growth & Innovation Phase",
+    "description": "<p>Entered a new phase of growth with innovative solutions, stronger partnerships, and expanded industry presence.</p>",
+    "image": "/uploads/history/1769346744242-377129442.png",
+    "year": "2024",
+    "createdAt": "2026-01-25T12:52:50.252Z",
+    "updatedAt": "2026-01-25T13:12:24.292Z",
+    "__v": 0
+  }
+]

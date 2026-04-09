@@ -1,0 +1,330 @@
+[
+  {
+    "_id": "696e02732c48c6dec8907601",
+    "category": "696de9186a12bf31f0da7cf0",
+    "title": "Custom Business Solution",
+    "description": "<p>This project focused on delivering a customized solution aligned with the client’s unique needs. Flexibility and close collaboration were key to the project’s success.</p>",
+    "name": "UrbanMart Retail Solutions",
+    "about": "A commercial business specializing in retail and customer-focused service operations.",
+    "images": [
+      "/uploads/project/1769326336649-745341676.png"
+    ],
+    "items": [
+      {
+        "iconName": "Activity",
+        "title": "Business Client",
+        "label": "Client Type",
+        "_id": "697601983f973794f60fb6a2"
+      },
+      {
+        "iconName": "MapPin",
+        "title": "India",
+        "label": "Project Location",
+        "_id": "697601983f973794f60fb6a3"
+      },
+      {
+        "iconName": "Clock",
+        "title": "5 Months",
+        "label": "Project Duration",
+        "_id": "697601983f973794f60fb6a4"
+      },
+      {
+        "iconName": "Scan",
+        "title": "200 Acres",
+        "label": "Area Covered",
+        "_id": "697601983f973794f60fb6a5"
+      }
+    ],
+    "createdAt": "2026-01-19T10:07:47.279Z",
+    "updatedAt": "2026-01-25T11:42:16.898Z",
+    "__v": 6,
+    "sectionImage": "/uploads/project/1769338393434-696059975.png"
+  },
+  {
+    "_id": "696e02ba2c48c6dec8907609",
+    "category": "696de90e6a12bf31f0da7ceb",
+    "title": "Large-Scale Operations Project",
+    "description": "<p>This project required detailed planning and coordination to manage large-scale operations. The focus was on safety, structured execution, and timely completion.</p>",
+    "name": "Titan Industrial Services",
+    "about": "An industrial services provider supporting large-scale operational facilities.",
+    "images": [
+      "/uploads/project/1769326316606-976963517.png"
+    ],
+    "items": [
+      {
+        "iconName": "Activity",
+        "title": "Business",
+        "label": "Client Type",
+        "_id": "697601893f973794f60fb671"
+      },
+      {
+        "iconName": "MapPin",
+        "title": "India",
+        "label": "Project Location",
+        "_id": "697601893f973794f60fb672"
+      },
+      {
+        "iconName": "Clock",
+        "title": "10 Months",
+        "label": "Project Duration",
+        "_id": "697601893f973794f60fb673"
+      },
+      {
+        "iconName": "Scan",
+        "title": "200 Acres",
+        "label": "Area Covered",
+        "_id": "697601893f973794f60fb674"
+      }
+    ],
+    "createdAt": "2026-01-19T10:08:58.160Z",
+    "updatedAt": "2026-01-25T11:42:01.593Z",
+    "__v": 6,
+    "sectionImage": "/uploads/project/1769338374984-32565225.png"
+  },
+  {
+    "_id": "696e02d22c48c6dec8907611",
+    "category": "696de9026a12bf31f0da7ce6",
+    "title": "Commercial Facility Setup",
+    "description": "<p>This project involved planning and executing a commercial facility with a focus on functionality, safety, and efficient use of space. Our team managed the project from initial planning to final handover.</p>",
+    "name": "FlexiWorks Consulting",
+    "about": "A consulting firm providing customized business solutions to diverse clients.",
+    "images": [
+      "/uploads/project/1769326269812-381982326.png"
+    ],
+    "items": [
+      {
+        "iconName": "Activity",
+        "title": "Bussiness",
+        "label": "Client Type",
+        "_id": "697601743f973794f60fb640"
+      },
+      {
+        "iconName": "MapPin",
+        "title": "India",
+        "label": "Project Location",
+        "_id": "697601743f973794f60fb641"
+      },
+      {
+        "iconName": "Clock",
+        "title": "5 Months",
+        "label": "Project Duration",
+        "_id": "697601743f973794f60fb642"
+      },
+      {
+        "iconName": "Scan",
+        "title": "200 Acres",
+        "label": "Area Covered",
+        "_id": "697601743f973794f60fb643"
+      }
+    ],
+    "createdAt": "2026-01-19T10:09:22.026Z",
+    "updatedAt": "2026-01-25T11:41:40.347Z",
+    "__v": 6,
+    "sectionImage": "/uploads/project/1769338361572-986288557.png"
+  },
+  {
+    "_id": "696e02e82c48c6dec8907619",
+    "category": "696de8e36a12bf31f0da7cd7",
+    "title": "Corporate Workspace Development",
+    "description": "<p>The objective was to design and execute a workspace aligned with the client’s workflow and business culture. Our team handled planning, coordination, execution, and final delivery while ensuring quality standards and clear communication throughout the project lifecycle.</p>",
+    "name": "Streamline Corp",
+    "about": "A business organization focused on improving internal workflows and operational efficiency.",
+    "images": [
+      "/uploads/project/1769326243725-383123924.png"
+    ],
+    "items": [
+      {
+        "iconName": "Activity",
+        "title": "Corporate Business",
+        "label": "Client Type",
+        "_id": "697601603f973794f60fb60f"
+      },
+      {
+        "iconName": "MapPin",
+        "title": "India",
+        "label": "Project Location",
+        "_id": "697601603f973794f60fb610"
+      },
+      {
+        "iconName": "Clock",
+        "title": "5 Months",
+        "label": "Project Duration",
+        "_id": "697601603f973794f60fb611"
+      },
+      {
+        "iconName": "Scan",
+        "title": "200 Acres",
+        "label": "Area Covered",
+        "_id": "697601603f973794f60fb612"
+      }
+    ],
+    "createdAt": "2026-01-19T10:09:44.291Z",
+    "updatedAt": "2026-01-25T11:41:20.350Z",
+    "__v": 7,
+    "sectionImage": "/uploads/project/1769338347472-111998011.png"
+  },
+  {
+    "_id": "69744cd712164d1bf2da6768",
+    "category": "696de9276a12bf31f0da7cf5",
+    "title": "Process Optimization Initiative",
+    "description": "<p>The goal was to analyze existing processes and implement improvements that streamline operations, reduce inefficiencies, and support growth.</p>",
+    "name": "FlexiWorks Consulting",
+    "about": "A consulting firm providing customized business solutions to diverse clients.",
+    "images": [
+      "/uploads/project/1769326543229-49814735.png"
+    ],
+    "items": [
+      {
+        "iconName": "Activity",
+        "title": "Business Client",
+        "label": "Client Type",
+        "_id": "697601463f973794f60fb530"
+      },
+      {
+        "iconName": "MapPin",
+        "title": "India",
+        "label": "Project Location",
+        "_id": "697601463f973794f60fb531"
+      },
+      {
+        "iconName": "Clock",
+        "title": "10 Months",
+        "label": "Project Duration",
+        "_id": "697601463f973794f60fb532"
+      },
+      {
+        "iconName": "Scan",
+        "title": "10 Acres",
+        "label": "Area Covered",
+        "_id": "697601463f973794f60fb533"
+      }
+    ],
+    "createdAt": "2026-01-24T04:38:47.046Z",
+    "updatedAt": "2026-01-25T11:40:54.536Z",
+    "__v": 7,
+    "sectionImage": "/uploads/project/1769338328511-959393935.png"
+  },
+  {
+    "_id": "69744d3012164d1bf2da6857",
+    "category": "696de92f6a12bf31f0da7cfa",
+    "title": "Infrastructure Enhancement Project",
+    "description": "<p>This project focused on upgrading and enhancing infrastructure to improve reliability, performance, and future scalability.</p>",
+    "name": "Nova Enterprises Group",
+    "about": "A growing corporate group operating across multiple business verticals and regions.",
+    "images": [
+      "/uploads/project/1769325934956-154051352.png"
+    ],
+    "items": [
+      {
+        "iconName": "Activity",
+        "title": "Business Client",
+        "label": "Client Type",
+        "_id": "6975fec93f973794f60fa818"
+      },
+      {
+        "iconName": "MapPin",
+        "title": "India",
+        "label": "Project Location",
+        "_id": "6975fec93f973794f60fa819"
+      },
+      {
+        "iconName": "Clock",
+        "title": "2 Months",
+        "label": "Project Duration",
+        "_id": "6975fec93f973794f60fa81a"
+      },
+      {
+        "iconName": "Scan",
+        "title": "2000 Acres",
+        "label": "Area Covered",
+        "_id": "6975fec93f973794f60fa81b"
+      }
+    ],
+    "createdAt": "2026-01-24T04:40:16.281Z",
+    "updatedAt": "2026-01-25T11:30:17.276Z",
+    "__v": 6,
+    "sectionImage": "/uploads/project/1769338307273-511866517.png"
+  },
+  {
+    "_id": "6974694f982af6e0e960e831",
+    "category": "696de8e36a12bf31f0da7cd7",
+    "title": "Corporate Office Interior Upgrade",
+    "description": "<p>The objective was to enhance the office layout, improve functionality, and align the workspace with the client’s brand identity. Our team managed design coordination, execution, and final delivery while ensuring minimal disruption to daily operations.</p>",
+    "name": "BrightCore Technologies",
+    "about": "A technology-driven corporate organization focused on delivering digital solutions and services.",
+    "images": [
+      "/uploads/project/1769337818845-833334226.png"
+    ],
+    "items": [
+      {
+        "iconName": "Activity",
+        "title": "Corporate Business",
+        "label": "Client Type",
+        "_id": "6975fe093f973794f60fa677"
+      },
+      {
+        "iconName": "MapPin",
+        "title": "USA",
+        "label": "Project Location",
+        "_id": "6975fe093f973794f60fa678"
+      },
+      {
+        "iconName": "Clock",
+        "title": "5 Months",
+        "label": "Project Duration",
+        "_id": "6975fe093f973794f60fa679"
+      },
+      {
+        "iconName": "Scan",
+        "title": "100 Acres",
+        "label": "Area Covered",
+        "_id": "6975fe093f973794f60fa67a"
+      }
+    ],
+    "createdAt": "2026-01-24T06:40:15.402Z",
+    "updatedAt": "2026-01-25T11:27:05.231Z",
+    "__v": 11,
+    "sectionImage": "/uploads/project/1769337818773-847554101.png"
+  },
+  {
+    "_id": "6975ef2098282074bce17755",
+    "category": "696de8e36a12bf31f0da7cd7",
+    "title": "Corporate Headquarters Renovation",
+    "description": "<p>This project involved redesigning key areas of the corporate headquarters, including workspaces, meeting rooms, and common areas. The focus was on functionality, brand alignment, and long-term usability.</p>",
+    "name": "Apex Solutions Pvt. Ltd",
+    "about": "A mid-sized corporate firm providing professional business and consulting services across multiple locations.",
+    "images": [
+      "/uploads/project/1769337784834-164863908.png"
+    ],
+    "sectionImage": "/uploads/project/1769341217252-462079038.png",
+    "items": [
+      {
+        "iconName": "Activity",
+        "title": "Corporate Business",
+        "label": "Client Type",
+        "_id": "697601213f973794f60fb347"
+      },
+      {
+        "iconName": "MapPin",
+        "title": "India",
+        "label": "Project Location",
+        "_id": "697601213f973794f60fb348"
+      },
+      {
+        "iconName": "Clock",
+        "title": "5 Months",
+        "label": "Project Duration",
+        "_id": "697601213f973794f60fb349"
+      },
+      {
+        "iconName": "Scan",
+        "title": "200 Acres",
+        "label": "Area Covered",
+        "_id": "697601213f973794f60fb34a"
+      }
+    ],
+    "createdAt": "2026-01-25T10:23:28.085Z",
+    "updatedAt": "2026-01-25T11:40:17.353Z",
+    "__v": 6
+  }
+]

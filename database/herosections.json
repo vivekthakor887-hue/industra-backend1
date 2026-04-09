@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "69706533247be4a9d1b0cc23",
+    "label": "RESULT-DRIVEN",
+    "title": "Smart Planning.  <span>Real Business</span> Results",
+    "description": "From concept to delivery, we ensure every project is planned, executed, and delivered with precision and transparency.",
+    "media": "/uploads/hero/1769493491584-807654839.png",
+    "createdAt": "2026-01-21T05:33:39.891Z",
+    "updatedAt": "2026-01-27T05:58:11.676Z",
+    "__v": 0
+  },
+  {
+    "_id": "6970657f247be4a9d1b0cc26",
+    "label": "TRUST & EXPERIENCE",
+    "title": "Reliable Solutions Built on <span>Trust</span>",
+    "description": "With a structured approach and a focus on quality, we deliver solutions that help businesses operate efficiently and confidently.",
+    "media": "/uploads/hero/1769493480483-708765182.png",
+    "createdAt": "2026-01-21T05:34:55.996Z",
+    "updatedAt": "2026-01-27T05:58:00.579Z",
+    "__v": 0
+  },
+  {
+    "_id": "6973225407d145b02164b579",
+    "label": "BUSINESS GROWTH",
+    "title": "Solutions That Drive <span>Business Growth</span>",
+    "description": "We partner with businesses to create scalable, efficient, and future-ready solutions tailored to their goals.",
+    "media": "/uploads/hero/1769493465475-314103413.png",
+    "createdAt": "2026-01-23T07:25:08.177Z",
+    "updatedAt": "2026-01-27T05:57:45.562Z",
+    "__v": 0
+  },
+  {
+    "_id": "69732cbde2e161c56f5f9e9f",
+    "label": "OUR PROCESS",
+    "title": "From Planning to <span>Perfect Execution</span>",
+    "description": "Our structured approach ensures transparency, quality, and on-time delivery across every project we undertake.",
+    "media": "/uploads/hero/1769493451438-637563401.png",
+    "createdAt": "2026-01-23T08:09:33.685Z",
+    "updatedAt": "2026-01-27T05:57:31.539Z",
+    "__v": 0
+  },
+  {
+    "_id": "69732cefe2e161c56f5f9edc",
+    "label": "SMART SOLUTIONS",
+    "title": "Smart Solutions for <span>Modern Business</span>",
+    "description": "We help businesses plan, build, and deliver reliable solutions with quality, efficiency, and long-term value.",
+    "media": "/uploads/hero/1769493440893-582154945.jpg",
+    "createdAt": "2026-01-23T08:10:23.864Z",
+    "updatedAt": "2026-01-27T05:57:20.977Z",
+    "__v": 0
+  }
+]

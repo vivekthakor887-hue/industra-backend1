@@ -1,0 +1,140 @@
+<%- include('../includes/header', {admin}) %>
+
+  <div class="body-wrapper">
+    <div class="container-fluid">
+
+
+      <!-- dashboard cards -->
+ 
+          <div class="row g-3">
+
+            <div class="col-md-8  d-flex align-items-stretch">
+             
+              <div class="card w-100">
+                 <a href="/inquiry">
+                <div class="card-body">
+                  <h4 class="card-title fw-semibold">Inquiry</h4>
+                  <div id="weekly-stats" class="mb-4 mt-7"></div>
+                </div>
+                 </a>
+              </div>
+             
+            </div>
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-md-12">
+                  <a href="/notificationhistory">
+                    <div class="card rounded-3 card-hover">
+
+                      <div class="card-body">
+                        <div class="d-flex align-items-center">
+                          <span class="flex-shrink-0">
+                            <i class="fa-solid fa-bell text-warning display-6"></i>
+                          </span>
+                          <div class="ms-4">
+                            <h4 class="card-title text-dark">See All Notifications</h4>
+                            <h4 class="card-title">
+                              <%=notificationcount%>
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-md-12">
+                  <a href="/newslatter">
+                    <div class="card rounded-3 card-hover">
+
+                      <div class="card-body">
+                        <div class="d-flex align-items-center">
+                          <span class="flex-shrink-0">
+                            <i class="fa-solid fa-newspaper text-success display-6"></i>
+                          </span>
+                          <div class="ms-4">
+                            <h4 class="card-title text-dark">Newsletter</h4>
+                            <h4 class="card-title">
+                              <%=newsletterCount%>
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+
+      <!-- dashboard cards frontend data -->
+      <div class="row g-3 mt-5">
+        <% const cards=[ { title: "Category" , icon: "fa-solid fa-tags" , count: categoryCount,
+          color: "bg-warning-subtle" ,text:"text-warning", barColor: "bg-warning" , link: "/ecocategory" }, {
+          title: "Projects" , icon: "fa-solid fa-boxes-stacked" , count: projectCount, color: "bg-danger-subtle"
+          ,text:"text-danger", barColor: "bg-danger" , link: "/project" }, { title: "Catalogues" ,
+          icon: "fa-solid fa-book-open-reader" , count: catalogueCount, color: "bg-info-subtle" ,text:"text-info",
+          barColor: "bg-info" , link: "/catalogues" }, { title: "Blogs" , icon: "ti ti-activity-heartbeat" , count:
+          blogCount, color: "bg-secondary-subtle" ,text:"text-secondary", barColor: "bg-secondary" , link: "/blog" }, {
+          title: "History" , icon: "fa-solid fa-hourglass-start" , count: historyCount, color: "bg-warning-subtle"
+          ,text:"text-warning", barColor: "bg-warning" , link: "/history" }, { title: "Exhibition" ,
+          icon: "ti ti-playlist" , count: exhibitionCount, color: "bg-purple-subtle" ,text:"text-purple",
+          barColor: "bg-purple" , link: "/exhibition" },{ title: "FAQs" , icon: "fa-solid fa-question-circle" , count:
+          faqCount, color: "bg-success-subtle" ,text:"text-success", barColor: "bg-success" , link: "/faq" }, {
+          title: "Testimonials" , icon: "fa-solid fa-comment-dots" , count: testimonialCount, color: "bg-danger-subtle"
+          ,text:"text-danger", barColor: "bg-danger" , link: "/testimonials" }, { title: "Hero Stats" ,
+          icon: "fa-solid fa-chart-line" , count: statscount, color: "bg-info-subtle" ,text:"text-info",
+          barColor: "bg-info" , link: "/herostats" }, { title: "Hero Section" , icon: "fa-solid fa-image" , count:
+          herosectionCount, color: "bg-primary-subtle" ,text:"text-primary", barColor: "bg-primary" ,
+          link: "/herosection" }, ]; %>
+
+          <% cards.forEach(card=> {
+            const progress = Math.round((card.count / maxCount) * 100);
+            %>
+            <div class="col-lg-4 col-md-6">
+              <a href="<%=card.link%>">
+                <div class="card">
+
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-3">
+                        <div
+                          class="<%=card.color%> <%=card.text%> rounded d-flex align-items-center p-8 justify-content-center">
+                          <i class="<%=card.icon%> fs-8"></i>
+                        </div>
+                      </div>
+                      <div class="col-9 d-flex align-items-center justify-content-end text-end">
+                        <div>
+                          <h4 class="card-title">
+                            <%=card.count%>
+                          </h4>
+                          <p class="card-subtitle mb-0">
+                            <%=card.title%>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="progress mt-3 text-bg-light " style="height:6px; border-radius:3px;">
+                      <div class="progress-bar <%=card.barColor%>" role="progressbar" style="width: <%=progress%>%" ;
+                        height: 6px;" aria-valuenow="<%=progress%>" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <% }) %>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+  const inquiryCounts = <%- JSON.stringify(inquiryCounts || []) %>;
+  const inquiryDates  = <%- JSON.stringify(inquiryDates || []) %>;
+</script>
+
+  <%- include('../includes/allscripts') %>
+    <script src="/libs/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="/js/dashboards/dashboard2.js"></script>

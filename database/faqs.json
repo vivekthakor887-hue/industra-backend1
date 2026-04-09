@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "696e0e58438090fbaaa71cc1",
+    "question": "How do you ensure project quality?",
+    "answer": "We follow structured processes, quality standards, and regular reviews to ensure consistent and reliable outcomes.",
+    "createdAt": "2026-01-19T10:58:32.210Z",
+    "updatedAt": "2026-01-24T10:15:01.552Z",
+    "__v": 0
+  },
+  {
+    "_id": "6970adad5b894c0bdc7e220c",
+    "question": "Can services be customized?",
+    "answer": "Yes, our services are fully customizable to meet the unique needs and goals of each client.",
+    "createdAt": "2026-01-21T10:42:53.086Z",
+    "updatedAt": "2026-01-24T10:14:30.488Z",
+    "__v": 0
+  },
+  {
+    "_id": "6970adc25b894c0bdc7e2229",
+    "question": "What type of businesses do you work with?",
+    "answer": "We work with businesses across various industries, offering flexible and customized solutions based on specific requirements.",
+    "createdAt": "2026-01-21T10:43:14.709Z",
+    "updatedAt": "2026-01-24T10:13:50.351Z",
+    "__v": 0
+  },
+  {
+    "_id": "69749bc4f3aa17a7cb358960",
+    "question": "Do you provide ongoing support after delivery?",
+    "answer": "Yes, we offer post-delivery support to ensure smooth operations and long-term satisfaction.",
+    "createdAt": "2026-01-24T10:15:32.777Z",
+    "updatedAt": "2026-01-24T10:15:32.777Z",
+    "__v": 0
+  }
+]

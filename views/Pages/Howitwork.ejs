@@ -1,0 +1,130 @@
+<%- include('../includes/header', {admin}) %>
+
+  <div class="body-wrapper">
+    <div class="container-fluid">
+      <!-- Header Section -->
+      <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+        <div class="card-body px-4 py-3">
+          <div class="row align-items-center">
+            <div class="col-md-8 col-sm-7">
+              <h4 class="fw-semibold mb-1">Manage How it work</h4>
+            </div>
+
+          </div>
+        </div>
+      </div>
+                         <div class="card shadow-sm">
+        <div class="card-body">
+
+          <h4 class="mb-4">Update How it work Section</h4>
+
+          <form id="sectionForm">
+
+            <!-- TYPE (HIDDEN) -->
+            <input type="hidden" name="type" value="<%= section ? section.type : 'howitwork' %>">
+
+            <!-- LABEL + TITLE (ONE LINE) -->
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label class="form-label fw-semibold">Section Label<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="label" value="<%= section ? section.label : '' %>"
+                  placeholder="Home Page – Custom Section" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label fw-semibold">Title<span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="title" value="<%= section ? section.title : '' %>"
+                  placeholder="Custom Subscriptions for Every Requirement" required>
+                   <small class="text-muted">
+  To highlight any word in the title, wrap it inside a <code>&lt;span&gt;</code>  <code>&lt;/span&gt;</code> tags.tag.
+</small>
+              </div>
+               <div class="mb-4">
+        <label class="form-label fw-semibold">Short Description<span class="text-danger">*</span></label>
+        <textarea class="form-control" name="description" rows="3"
+            placeholder="Write short description here..." required><%= section ? section.description : '' %></textarea>
+    </div>
+            </div>
+
+        
+
+            <!-- BUTTON -->
+            <button type="submit" class="btn btn-primary px-4">
+              Update Section
+            </button>
+
+          </form>
+
+        </div>
+      </div>
+    
+
+<div class="card">
+    <div class="card-body">
+ <form id="howItWorkForm" enctype="multipart/form-data">
+
+  <input type="hidden" name="id" id="howItWorkId">
+
+  <!-- STEPS -->
+  <div class="mb-3">
+    <div class="d-flex justify-content-between align-items-center">
+      <label class="form-label">
+        Steps <span class="text-danger">*</span>
+      </label>
+
+      <button type="button" id="addItemBtn" class="btn btn-sm btn-outline-primary">
+        <i class="fa fa-plus"></i> Add More
+      </button>
+    </div>
+
+    <div id="itemContainer"></div>
+  </div>
+
+  <hr>
+
+<div class="mb-3 row g-3 align-items-end">
+  <!-- IMAGE -->
+  <div class="col-md-6">
+    <label class="form-label">Image</label>
+    <input type="file" name="image" class="form-control" id="imageInput">
+    <small class="text-muted d-block mt-1">
+      <i class="fa-solid fa-circle-info text-primary"></i>
+      Recommended Size: <strong>624 x 700 px</strong>, Formats:
+      <strong>/jpeg|jpg|png|webp/</strong>
+    </small>
+    <!-- Preview Container Fixed Height -->
+    <div style="min-height:150px;">
+      <img id="previewImg" src="" alt="Preview" class="img-fluid mt-2 d-none" style="max-height: 150px; object-fit: cover;">
+    </div>
+  </div>
+
+  <!-- BACKGROUND IMAGE -->
+  <div class="col-md-6">
+    <label class="form-label">Background Image</label>
+    <input type="file" name="backgroundImage" class="form-control" id="bgImageInput">
+    <small class="text-muted d-block mt-1">
+      <i class="fa-solid fa-circle-info text-primary"></i>
+      Recommended Size: <strong>1920 x 850 px</strong>, Formats:
+      <strong>/jpeg|jpg|png|webp/</strong>
+    </small>
+    <!-- Preview Container Fixed Height -->
+    <div style="min-height:150px;">
+      <img id="previewBgImg" src="" alt="Preview" class="img-fluid mt-2 d-none" style="max-height: 150px; object-fit: cover;">
+    </div>
+  </div>
+</div>
+
+  <div class="text-sm-start">
+    <button type="submit" class="btn btn-primary">Save</button>
+  </div>
+
+</form>
+    </div>
+</div>
+
+
+    </div>
+  </div>
+
+  <%- include('../includes/allscripts') %>
+    <script src="/js/viewjs/howitwork.js"></script>
+  <script src="/js/viewjs/pagesection.js"></script>
